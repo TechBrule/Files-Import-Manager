@@ -14,7 +14,6 @@
     Private Sub BtnSetDebug_Click(sender As Object, e As EventArgs) Handles BtnSetDebug.Click
         My.Settings.Debug = "k"
         LblDebugStatus.Text = "Debug Status : Enabled"
-        'note new test for Ravi
     End Sub
 
 
