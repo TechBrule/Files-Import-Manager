@@ -68,7 +68,6 @@
         SQLCmd.Connection = SQLCon
         SQLCmd.ExecuteNonQuery()
         SQLCon.Close()
-        'test 
     End Sub
 
 
