@@ -22,5 +22,6 @@
     Private Sub Welcome_Closing(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles MyBase.Closing
         My.Settings.Debug = "c"
     End Sub 'Form1_Closing
-    'test 2
+
+
 End Class

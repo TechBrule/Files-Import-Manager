@@ -123,6 +123,7 @@ Partial Class Welcome
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(200, 200)
         Me.Button6.TabIndex = 5
+        Me.Button6.Text = "Baker Sales"
         Me.Button6.UseVisualStyleBackColor = False
         '
         'Button7
@@ -136,6 +137,7 @@ Partial Class Welcome
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(200, 200)
         Me.Button7.TabIndex = 6
+        Me.Button7.Text = "VT Wine Sales"
         Me.Button7.UseVisualStyleBackColor = False
         '
         'Button8
@@ -149,6 +151,7 @@ Partial Class Welcome
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(200, 200)
         Me.Button8.TabIndex = 7
+        Me.Button8.Text = "Farrel Sales"
         Me.Button8.UseVisualStyleBackColor = False
         '
         'Button9
@@ -162,6 +165,7 @@ Partial Class Welcome
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(200, 200)
         Me.Button9.TabIndex = 8
+        Me.Button9.Text = "Calmont Sales"
         Me.Button9.UseVisualStyleBackColor = False
         '
         'Button10
