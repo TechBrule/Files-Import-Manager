@@ -115,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Baker.Designer.vb">
+      <DependentUpon>Baker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Baker.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CoopBasics.Designer.vb">
       <DependentUpon>CoopBasics.vb</DependentUpon>
     </Compile>
@@ -175,6 +181,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Baker.resx">
+      <DependentUpon>Baker.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CoopBasics.resx">
       <DependentUpon>CoopBasics.vb</DependentUpon>
     </EmbeddedResource>

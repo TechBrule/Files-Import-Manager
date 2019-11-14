@@ -28,12 +28,12 @@ Partial Class Welcome
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -97,20 +97,6 @@ Partial Class Welcome
         Me.ImageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
         Me.ImageList1.ImageSize = New System.Drawing.Size(16, 16)
         Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.DarkOrchid
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Image = Global.File_Import_Manager.My.Resources.Resources.cog3
-        Me.Button5.Location = New System.Drawing.Point(1263, 331)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(200, 200)
-        Me.Button5.TabIndex = 4
-        Me.Button5.UseVisualStyleBackColor = False
         '
         'Button6
         '
@@ -180,6 +166,20 @@ Partial Class Welcome
         Me.Button10.Size = New System.Drawing.Size(200, 200)
         Me.Button10.TabIndex = 9
         Me.Button10.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.DarkOrchid
+        Me.Button5.FlatAppearance.BorderSize = 0
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.White
+        Me.Button5.Image = Global.File_Import_Manager.My.Resources.Resources.cog3
+        Me.Button5.Location = New System.Drawing.Point(1263, 331)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(200, 200)
+        Me.Button5.TabIndex = 4
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'Welcome
         '
