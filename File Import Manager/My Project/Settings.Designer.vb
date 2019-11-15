@@ -66,8 +66,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("""C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Com"& _ 
-            "monExtensions\Microsoft\SSIS\150\Binn\DTExec.exe""")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("""C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\DTExec.exe""")>  _
         Public Property DtexecPath() As String
             Get
                 Return CType(Me("DtexecPath"),String)
@@ -98,6 +97,90 @@ Namespace My
             End Get
             Set
                 Me("Debug") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property UsersEmail() As String
+            Get
+                Return CType(Me("UsersEmail"),String)
+            End Get
+            Set
+                Me("UsersEmail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property BeerBuyersEmail() As String
+            Get
+                Return CType(Me("BeerBuyersEmail"),String)
+            End Get
+            Set
+                Me("BeerBuyersEmail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property MailSMTPServer() As String
+            Get
+                Return CType(Me("MailSMTPServer"),String)
+            End Get
+            Set
+                Me("MailSMTPServer") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property MailSub() As String
+            Get
+                Return CType(Me("MailSub"),String)
+            End Get
+            Set
+                Me("MailSub") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property MailBody() As String
+            Get
+                Return CType(Me("MailBody"),String)
+            End Get
+            Set
+                Me("MailBody") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property UsersEmailPassword() As String
+            Get
+                Return CType(Me("UsersEmailPassword"),String)
+            End Get
+            Set
+                Me("UsersEmailPassword") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property MailAttachment() As String
+            Get
+                Return CType(Me("MailAttachment"),String)
+            End Get
+            Set
+                Me("MailAttachment") = value
             End Set
         End Property
     End Class

@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LbBakerStep1.Text" xml:space="preserve">
+    <value>Step 1:     Open the file sent by Baker and clean anything that needs to be 
+fixed. Then add a new column to the right of the UPC field and format it as 
+text. Use the auto fill method by typing in the upc for each row into the box 
+until Auto fill becomes availible and then let it fill the rest of the rows. 
+Delete the old UPC column and name the new one UPC. The remaing rows 
+should be labled as "Item number" "Brand" "Description" Size" "Price" "SSP"
+"Deal" "Price"(yes 2 columns named price, SQL will deal with this) "Sales" 
+"Savings" "UPC" "Start Date" "End Date"</value>
+  </data>
 </root>

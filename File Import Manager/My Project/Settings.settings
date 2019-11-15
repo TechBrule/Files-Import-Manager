@@ -11,13 +11,34 @@
       <Value Profile="(Default)">Data Source=neptune;Initial Catalog=CATProduct;Integrated Security=True</Value>
     </Setting>
     <Setting Name="DtexecPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">"C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\CommonExtensions\Microsoft\SSIS\150\Binn\DTExec.exe"</Value>
+      <Value Profile="(Default)">"C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\DTExec.exe"</Value>
     </Setting>
     <Setting Name="Server" Type="System.String" Scope="User">
       <Value Profile="(Default)">Neptune</Value>
     </Setting>
     <Setting Name="Debug" Type="System.String" Scope="User">
       <Value Profile="(Default)">c</Value>
+    </Setting>
+    <Setting Name="UsersEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BeerBuyersEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MailSMTPServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MailSub" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MailBody" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UsersEmailPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MailAttachment" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>
