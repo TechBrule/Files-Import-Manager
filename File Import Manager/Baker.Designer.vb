@@ -34,8 +34,12 @@ Partial Class Baker
         Me.LbBakerStep3 = New System.Windows.Forms.Label()
         Me.LbBakerStep2 = New System.Windows.Forms.Label()
         Me.LbBakerStep1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.BTNEMailBakerExcludes = New System.Windows.Forms.Button()
+        Me.LbBakerStep6 = New System.Windows.Forms.Label()
+        Me.BTNArchiveExcludes = New System.Windows.Forms.Button()
+        Me.LbBakerStep7 = New System.Windows.Forms.Label()
+        Me.BTNSaveBakerCatapultExports = New System.Windows.Forms.Button()
+        Me.LbBakerStep8 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -165,38 +169,91 @@ Partial Class Baker
         Me.LbBakerStep1.TabIndex = 13
         Me.LbBakerStep1.Text = resources.GetString("LbBakerStep1.Text")
         '
-        'Button1
+        'BTNEMailBakerExcludes
         '
-        Me.Button1.BackColor = System.Drawing.Color.DarkCyan
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(872, 1073)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(190, 90)
-        Me.Button1.TabIndex = 24
-        Me.Button1.Text = "Email Buyer"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.BTNEMailBakerExcludes.BackColor = System.Drawing.Color.DarkCyan
+        Me.BTNEMailBakerExcludes.FlatAppearance.BorderSize = 0
+        Me.BTNEMailBakerExcludes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BTNEMailBakerExcludes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTNEMailBakerExcludes.Location = New System.Drawing.Point(872, 1073)
+        Me.BTNEMailBakerExcludes.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.BTNEMailBakerExcludes.Name = "BTNEMailBakerExcludes"
+        Me.BTNEMailBakerExcludes.Size = New System.Drawing.Size(190, 90)
+        Me.BTNEMailBakerExcludes.TabIndex = 24
+        Me.BTNEMailBakerExcludes.Text = "Email Buyer"
+        Me.BTNEMailBakerExcludes.UseVisualStyleBackColor = False
         '
-        'Label2
+        'LbBakerStep6
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(121, 1073)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(646, 38)
-        Me.Label2.TabIndex = 23
-        Me.Label2.Text = "Step 6:     Email the excluded list to the Beer Buyer."
+        Me.LbBakerStep6.AutoSize = True
+        Me.LbBakerStep6.Location = New System.Drawing.Point(121, 1073)
+        Me.LbBakerStep6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.LbBakerStep6.Name = "LbBakerStep6"
+        Me.LbBakerStep6.Size = New System.Drawing.Size(646, 38)
+        Me.LbBakerStep6.TabIndex = 23
+        Me.LbBakerStep6.Text = "Step 6:     Email the excluded list to the Beer Buyer."
+        '
+        'BTNArchiveExcludes
+        '
+        Me.BTNArchiveExcludes.BackColor = System.Drawing.Color.DarkCyan
+        Me.BTNArchiveExcludes.FlatAppearance.BorderSize = 0
+        Me.BTNArchiveExcludes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BTNArchiveExcludes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTNArchiveExcludes.Location = New System.Drawing.Point(872, 1219)
+        Me.BTNArchiveExcludes.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.BTNArchiveExcludes.Name = "BTNArchiveExcludes"
+        Me.BTNArchiveExcludes.Size = New System.Drawing.Size(190, 90)
+        Me.BTNArchiveExcludes.TabIndex = 26
+        Me.BTNArchiveExcludes.Text = "Archive File"
+        Me.BTNArchiveExcludes.UseVisualStyleBackColor = False
+        '
+        'LbBakerStep7
+        '
+        Me.LbBakerStep7.AutoSize = True
+        Me.LbBakerStep7.Location = New System.Drawing.Point(121, 1219)
+        Me.LbBakerStep7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.LbBakerStep7.Name = "LbBakerStep7"
+        Me.LbBakerStep7.Size = New System.Drawing.Size(701, 76)
+        Me.LbBakerStep7.TabIndex = 25
+        Me.LbBakerStep7.Text = "Step 7:     Click Archive File to archive the excludes file. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Follow the prompts" &
+    "."
+        '
+        'BTNSaveBakerCatapultExports
+        '
+        Me.BTNSaveBakerCatapultExports.BackColor = System.Drawing.Color.DarkCyan
+        Me.BTNSaveBakerCatapultExports.FlatAppearance.BorderSize = 0
+        Me.BTNSaveBakerCatapultExports.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BTNSaveBakerCatapultExports.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BTNSaveBakerCatapultExports.Location = New System.Drawing.Point(872, 1357)
+        Me.BTNSaveBakerCatapultExports.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.BTNSaveBakerCatapultExports.Name = "BTNSaveBakerCatapultExports"
+        Me.BTNSaveBakerCatapultExports.Size = New System.Drawing.Size(190, 129)
+        Me.BTNSaveBakerCatapultExports.TabIndex = 28
+        Me.BTNSaveBakerCatapultExports.Text = "Save Catapult Files"
+        Me.BTNSaveBakerCatapultExports.UseVisualStyleBackColor = False
+        '
+        'LbBakerStep8
+        '
+        Me.LbBakerStep8.AutoSize = True
+        Me.LbBakerStep8.Location = New System.Drawing.Point(121, 1357)
+        Me.LbBakerStep8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.LbBakerStep8.Name = "LbBakerStep8"
+        Me.LbBakerStep8.Size = New System.Drawing.Size(690, 114)
+        Me.LbBakerStep8.TabIndex = 27
+        Me.LbBakerStep8.Text = "Step 8:     Export files for import into catapult. files are " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "()."
         '
         'Baker
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(15.0!, 38.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1222, 1672)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label2)
+        Me.ClientSize = New System.Drawing.Size(1222, 1522)
+        Me.Controls.Add(Me.BTNSaveBakerCatapultExports)
+        Me.Controls.Add(Me.LbBakerStep8)
+        Me.Controls.Add(Me.BTNArchiveExcludes)
+        Me.Controls.Add(Me.LbBakerStep7)
+        Me.Controls.Add(Me.BTNEMailBakerExcludes)
+        Me.Controls.Add(Me.LbBakerStep6)
         Me.Controls.Add(Me.BtnBakerArchiveImport)
         Me.Controls.Add(Me.BtnBakerRunImport)
         Me.Controls.Add(Me.BtnBakerUploadFile)
@@ -229,6 +286,10 @@ Partial Class Baker
     Friend WithEvents LbBakerStep3 As Label
     Friend WithEvents LbBakerStep2 As Label
     Friend WithEvents LbBakerStep1 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Label2 As Label
+    Friend WithEvents BTNEMailBakerExcludes As Button
+    Friend WithEvents LbBakerStep6 As Label
+    Friend WithEvents BTNArchiveExcludes As Button
+    Friend WithEvents LbBakerStep7 As Label
+    Friend WithEvents BTNSaveBakerCatapultExports As Button
+    Friend WithEvents LbBakerStep8 As Label
 End Class

@@ -9,6 +9,7 @@
         TBUsersEmailPassword.Text = My.Settings.UsersEmailPassword
         TBMailServer.Text = My.Settings.MailSMTPServer
         TBBeerBuyerEmail.Text = My.Settings.BeerBuyersEmail
+        TBUsersEmailPassword.UseSystemPasswordChar = True
     End Sub
 
     Private Sub BtnSaveSettings_Click(sender As Object, e As EventArgs) Handles BtnSaveSettings.Click
