@@ -125,6 +125,7 @@ until Auto fill becomes availible and then let it fill the rest of the rows.
 Delete the old UPC column and name the new one UPC. The remaing rows 
 should be labled as "Item number" "Brand" "Description" Size" "Price" "SSP"
 "Deal" "Price"(yes 2 columns named price, SQL will deal with this) "Sales" 
-"Savings" "UPC" "Start Date" "End Date"</value>
+"Savings" "UPC" "Start Date" "End Date" . Save the file to a place you 
+can access.</value>
   </data>
 </root>
