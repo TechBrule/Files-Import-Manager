@@ -48,7 +48,7 @@ Partial Class Calmont
         Me.LbCalmontStep1.Location = New System.Drawing.Point(119, 124)
         Me.LbCalmontStep1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCalmontStep1.Name = "LbCalmontStep1"
-        Me.LbCalmontStep1.Size = New System.Drawing.Size(684, 225)
+        Me.LbCalmontStep1.Size = New System.Drawing.Size(701, 200)
         Me.LbCalmontStep1.TabIndex = 62
         Me.LbCalmontStep1.Text = resources.GetString("LbCalmontStep1.Text")
         '
