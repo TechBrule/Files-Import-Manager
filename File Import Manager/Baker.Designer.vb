@@ -46,10 +46,10 @@ Partial Class Baker
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(80, -1)
+        Me.Label1.Location = New System.Drawing.Point(170, 9)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(1016, 96)
+        Me.Label1.Size = New System.Drawing.Size(675, 65)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Baker Monthly Sales and Deals"
         '
@@ -59,10 +59,10 @@ Partial Class Baker
         Me.BtnBakerArchiveImport.FlatAppearance.BorderSize = 0
         Me.BtnBakerArchiveImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBakerArchiveImport.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnBakerArchiveImport.Location = New System.Drawing.Point(872, 974)
+        Me.BtnBakerArchiveImport.Location = New System.Drawing.Point(746, 707)
         Me.BtnBakerArchiveImport.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnBakerArchiveImport.Name = "BtnBakerArchiveImport"
-        Me.BtnBakerArchiveImport.Size = New System.Drawing.Size(190, 90)
+        Me.BtnBakerArchiveImport.Size = New System.Drawing.Size(162, 66)
         Me.BtnBakerArchiveImport.TabIndex = 22
         Me.BtnBakerArchiveImport.Text = "Archive File"
         Me.BtnBakerArchiveImport.UseVisualStyleBackColor = False
@@ -73,10 +73,10 @@ Partial Class Baker
         Me.BtnBakerRunImport.FlatAppearance.BorderSize = 0
         Me.BtnBakerRunImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBakerRunImport.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnBakerRunImport.Location = New System.Drawing.Point(872, 816)
+        Me.BtnBakerRunImport.Location = New System.Drawing.Point(746, 604)
         Me.BtnBakerRunImport.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnBakerRunImport.Name = "BtnBakerRunImport"
-        Me.BtnBakerRunImport.Size = New System.Drawing.Size(190, 90)
+        Me.BtnBakerRunImport.Size = New System.Drawing.Size(162, 66)
         Me.BtnBakerRunImport.TabIndex = 21
         Me.BtnBakerRunImport.Text = "Run Import"
         Me.BtnBakerRunImport.UseVisualStyleBackColor = False
@@ -87,10 +87,10 @@ Partial Class Baker
         Me.BtnBakerUploadFile.FlatAppearance.BorderSize = 0
         Me.BtnBakerUploadFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBakerUploadFile.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnBakerUploadFile.Location = New System.Drawing.Point(872, 685)
+        Me.BtnBakerUploadFile.Location = New System.Drawing.Point(746, 500)
         Me.BtnBakerUploadFile.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnBakerUploadFile.Name = "BtnBakerUploadFile"
-        Me.BtnBakerUploadFile.Size = New System.Drawing.Size(190, 90)
+        Me.BtnBakerUploadFile.Size = New System.Drawing.Size(162, 66)
         Me.BtnBakerUploadFile.TabIndex = 20
         Me.BtnBakerUploadFile.Text = "Upload New File"
         Me.BtnBakerUploadFile.UseVisualStyleBackColor = False
@@ -101,39 +101,39 @@ Partial Class Baker
         Me.BtnBakerSetWorkingYearMonth.FlatAppearance.BorderSize = 0
         Me.BtnBakerSetWorkingYearMonth.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBakerSetWorkingYearMonth.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnBakerSetWorkingYearMonth.Location = New System.Drawing.Point(872, 527)
+        Me.BtnBakerSetWorkingYearMonth.Location = New System.Drawing.Point(746, 390)
         Me.BtnBakerSetWorkingYearMonth.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnBakerSetWorkingYearMonth.Name = "BtnBakerSetWorkingYearMonth"
-        Me.BtnBakerSetWorkingYearMonth.Size = New System.Drawing.Size(190, 90)
+        Me.BtnBakerSetWorkingYearMonth.Size = New System.Drawing.Size(162, 66)
         Me.BtnBakerSetWorkingYearMonth.TabIndex = 19
         Me.BtnBakerSetWorkingYearMonth.Text = "Set Working Year\Month"
         Me.BtnBakerSetWorkingYearMonth.UseVisualStyleBackColor = False
         '
         'TBBakerWorkingYearMonth
         '
-        Me.TBBakerWorkingYearMonth.Location = New System.Drawing.Point(725, 527)
+        Me.TBBakerWorkingYearMonth.Location = New System.Drawing.Point(569, 390)
         Me.TBBakerWorkingYearMonth.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.TBBakerWorkingYearMonth.Name = "TBBakerWorkingYearMonth"
-        Me.TBBakerWorkingYearMonth.Size = New System.Drawing.Size(128, 45)
+        Me.TBBakerWorkingYearMonth.Size = New System.Drawing.Size(128, 32)
         Me.TBBakerWorkingYearMonth.TabIndex = 18
         '
         'LbBakerStep5
         '
         Me.LbBakerStep5.AutoSize = True
-        Me.LbBakerStep5.Location = New System.Drawing.Point(121, 974)
+        Me.LbBakerStep5.Location = New System.Drawing.Point(98, 707)
         Me.LbBakerStep5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep5.Name = "LbBakerStep5"
-        Me.LbBakerStep5.Size = New System.Drawing.Size(608, 38)
+        Me.LbBakerStep5.Size = New System.Drawing.Size(409, 25)
         Me.LbBakerStep5.TabIndex = 17
         Me.LbBakerStep5.Text = "Step 5:     Click Archive File. Follow the prompts."
         '
         'LbBakerStep4
         '
         Me.LbBakerStep4.AutoSize = True
-        Me.LbBakerStep4.Location = New System.Drawing.Point(121, 816)
+        Me.LbBakerStep4.Location = New System.Drawing.Point(98, 604)
         Me.LbBakerStep4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep4.Name = "LbBakerStep4"
-        Me.LbBakerStep4.Size = New System.Drawing.Size(690, 114)
+        Me.LbBakerStep4.Size = New System.Drawing.Size(470, 75)
         Me.LbBakerStep4.TabIndex = 16
         Me.LbBakerStep4.Text = "Step 4:     Click Run Import. Follow the prompts. Some " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "command windows will ope" &
     "n you will need to wait for " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "them to close on their own before you continue."
@@ -141,20 +141,20 @@ Partial Class Baker
         'LbBakerStep3
         '
         Me.LbBakerStep3.AutoSize = True
-        Me.LbBakerStep3.Location = New System.Drawing.Point(121, 685)
+        Me.LbBakerStep3.Location = New System.Drawing.Point(98, 500)
         Me.LbBakerStep3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep3.Name = "LbBakerStep3"
-        Me.LbBakerStep3.Size = New System.Drawing.Size(698, 76)
+        Me.LbBakerStep3.Size = New System.Drawing.Size(469, 50)
         Me.LbBakerStep3.TabIndex = 15
         Me.LbBakerStep3.Text = "Step 3:     Click Upload New File and select the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "just saved."
         '
         'LbBakerStep2
         '
         Me.LbBakerStep2.AutoSize = True
-        Me.LbBakerStep2.Location = New System.Drawing.Point(121, 527)
+        Me.LbBakerStep2.Location = New System.Drawing.Point(98, 390)
         Me.LbBakerStep2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep2.Name = "LbBakerStep2"
-        Me.LbBakerStep2.Size = New System.Drawing.Size(594, 114)
+        Me.LbBakerStep2.Size = New System.Drawing.Size(397, 75)
         Me.LbBakerStep2.TabIndex = 14
         Me.LbBakerStep2.Text = "Step 2:     Enter the year\month of the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "are inporting. For example for" &
     " March of 2019 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "enter 201903. Click Set Working Month."
@@ -162,10 +162,10 @@ Partial Class Baker
         'LbBakerStep1
         '
         Me.LbBakerStep1.AutoSize = True
-        Me.LbBakerStep1.Location = New System.Drawing.Point(121, 135)
+        Me.LbBakerStep1.Location = New System.Drawing.Point(98, 105)
         Me.LbBakerStep1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep1.Name = "LbBakerStep1"
-        Me.LbBakerStep1.Size = New System.Drawing.Size(960, 342)
+        Me.LbBakerStep1.Size = New System.Drawing.Size(660, 250)
         Me.LbBakerStep1.TabIndex = 13
         Me.LbBakerStep1.Text = resources.GetString("LbBakerStep1.Text")
         '
@@ -175,10 +175,10 @@ Partial Class Baker
         Me.BTNEMailBakerExcludes.FlatAppearance.BorderSize = 0
         Me.BTNEMailBakerExcludes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTNEMailBakerExcludes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNEMailBakerExcludes.Location = New System.Drawing.Point(872, 1122)
+        Me.BTNEMailBakerExcludes.Location = New System.Drawing.Point(746, 810)
         Me.BTNEMailBakerExcludes.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BTNEMailBakerExcludes.Name = "BTNEMailBakerExcludes"
-        Me.BTNEMailBakerExcludes.Size = New System.Drawing.Size(190, 90)
+        Me.BTNEMailBakerExcludes.Size = New System.Drawing.Size(162, 66)
         Me.BTNEMailBakerExcludes.TabIndex = 24
         Me.BTNEMailBakerExcludes.Text = "Email Buyer"
         Me.BTNEMailBakerExcludes.UseVisualStyleBackColor = False
@@ -186,10 +186,10 @@ Partial Class Baker
         'LbBakerStep6
         '
         Me.LbBakerStep6.AutoSize = True
-        Me.LbBakerStep6.Location = New System.Drawing.Point(121, 1122)
+        Me.LbBakerStep6.Location = New System.Drawing.Point(98, 810)
         Me.LbBakerStep6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep6.Name = "LbBakerStep6"
-        Me.LbBakerStep6.Size = New System.Drawing.Size(646, 38)
+        Me.LbBakerStep6.Size = New System.Drawing.Size(434, 25)
         Me.LbBakerStep6.TabIndex = 23
         Me.LbBakerStep6.Text = "Step 6:     Email the excluded list to the Beer Buyer."
         '
@@ -199,10 +199,10 @@ Partial Class Baker
         Me.BTNArchiveExcludes.FlatAppearance.BorderSize = 0
         Me.BTNArchiveExcludes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTNArchiveExcludes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNArchiveExcludes.Location = New System.Drawing.Point(872, 1268)
+        Me.BTNArchiveExcludes.Location = New System.Drawing.Point(746, 915)
         Me.BTNArchiveExcludes.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BTNArchiveExcludes.Name = "BTNArchiveExcludes"
-        Me.BTNArchiveExcludes.Size = New System.Drawing.Size(190, 90)
+        Me.BTNArchiveExcludes.Size = New System.Drawing.Size(162, 66)
         Me.BTNArchiveExcludes.TabIndex = 26
         Me.BTNArchiveExcludes.Text = "Archive File"
         Me.BTNArchiveExcludes.UseVisualStyleBackColor = False
@@ -210,10 +210,10 @@ Partial Class Baker
         'LbBakerStep7
         '
         Me.LbBakerStep7.AutoSize = True
-        Me.LbBakerStep7.Location = New System.Drawing.Point(121, 1268)
+        Me.LbBakerStep7.Location = New System.Drawing.Point(98, 915)
         Me.LbBakerStep7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep7.Name = "LbBakerStep7"
-        Me.LbBakerStep7.Size = New System.Drawing.Size(701, 76)
+        Me.LbBakerStep7.Size = New System.Drawing.Size(472, 50)
         Me.LbBakerStep7.TabIndex = 25
         Me.LbBakerStep7.Text = "Step 7:     Click Archive File to archive the excludes file. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Follow the prompts" &
     "."
@@ -224,10 +224,10 @@ Partial Class Baker
         Me.BTNSaveBakerCatapultExports.FlatAppearance.BorderSize = 0
         Me.BTNSaveBakerCatapultExports.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTNSaveBakerCatapultExports.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNSaveBakerCatapultExports.Location = New System.Drawing.Point(872, 1406)
+        Me.BTNSaveBakerCatapultExports.Location = New System.Drawing.Point(746, 1022)
         Me.BTNSaveBakerCatapultExports.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BTNSaveBakerCatapultExports.Name = "BTNSaveBakerCatapultExports"
-        Me.BTNSaveBakerCatapultExports.Size = New System.Drawing.Size(190, 129)
+        Me.BTNSaveBakerCatapultExports.Size = New System.Drawing.Size(162, 66)
         Me.BTNSaveBakerCatapultExports.TabIndex = 28
         Me.BTNSaveBakerCatapultExports.Text = "Save Catapult Files"
         Me.BTNSaveBakerCatapultExports.UseVisualStyleBackColor = False
@@ -235,20 +235,20 @@ Partial Class Baker
         'LbBakerStep8
         '
         Me.LbBakerStep8.AutoSize = True
-        Me.LbBakerStep8.Location = New System.Drawing.Point(121, 1406)
+        Me.LbBakerStep8.Location = New System.Drawing.Point(98, 1022)
         Me.LbBakerStep8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep8.Name = "LbBakerStep8"
-        Me.LbBakerStep8.Size = New System.Drawing.Size(690, 76)
+        Me.LbBakerStep8.Size = New System.Drawing.Size(466, 50)
         Me.LbBakerStep8.TabIndex = 27
         Me.LbBakerStep8.Text = "Step 8:     Export files for import into catapult. files are " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to  \\hmc" &
     "\it\CoopDB\Baker"
         '
         'Baker
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(15.0!, 38.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1222, 1559)
+        Me.ClientSize = New System.Drawing.Size(1038, 1108)
         Me.Controls.Add(Me.BTNSaveBakerCatapultExports)
         Me.Controls.Add(Me.LbBakerStep8)
         Me.Controls.Add(Me.BTNArchiveExcludes)

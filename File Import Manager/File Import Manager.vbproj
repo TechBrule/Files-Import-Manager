@@ -29,7 +29,7 @@
     <PublisherName>Hunger Mountain Coop</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationRevision>16</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -125,6 +125,12 @@
     <Compile Include="Baker.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Calmont.Designer.vb">
+      <DependentUpon>Calmont.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calmont.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CoopBasics.Designer.vb">
       <DependentUpon>CoopBasics.vb</DependentUpon>
     </Compile>
@@ -135,6 +141,12 @@
       <DependentUpon>CoopDeals.vb</DependentUpon>
     </Compile>
     <Compile Include="CoopDeals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farrell.Designer.vb">
+      <DependentUpon>Farrell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Farrell.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LBMX.Designer.vb">
@@ -188,11 +200,17 @@
     <EmbeddedResource Include="Baker.resx">
       <DependentUpon>Baker.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Calmont.resx">
+      <DependentUpon>Calmont.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CoopBasics.resx">
       <DependentUpon>CoopBasics.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CoopDeals.resx">
       <DependentUpon>CoopDeals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farrell.resx">
+      <DependentUpon>Farrell.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LBMX.resx">
       <DependentUpon>LBMX.vb</DependentUpon>

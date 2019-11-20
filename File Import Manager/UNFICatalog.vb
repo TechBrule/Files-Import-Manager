@@ -9,13 +9,7 @@
         BtnArchiveFile.Enabled = False
         'BtnUNFIOpenCatalog.Enabled = False
         'BtnUNFIOpenMassUpdates.Enabled = False
-        If Screen.PrimaryScreen.Bounds.Height < 2160 Then
-            Me.Height = 900
-            Me.AutoScroll = True
-            Me.VerticalScroll.Visible = True
-        Else
 
-        End If
     End Sub
 
     Private Sub BtnUNFISetWorkingYearMonth_Click(sender As Object, e As EventArgs) Handles BtnUNFISetWorkingYearMonth.Click
@@ -86,5 +80,6 @@
         SQLCmd.ExecuteNonQuery()
         SQLCon.Close()
     End Sub
+
 
 End Class
