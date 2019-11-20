@@ -154,9 +154,9 @@ Partial Class Baker
         Me.LbBakerStep2.Location = New System.Drawing.Point(98, 390)
         Me.LbBakerStep2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbBakerStep2.Name = "LbBakerStep2"
-        Me.LbBakerStep2.Size = New System.Drawing.Size(397, 75)
+        Me.LbBakerStep2.Size = New System.Drawing.Size(399, 75)
         Me.LbBakerStep2.TabIndex = 14
-        Me.LbBakerStep2.Text = "Step 2:     Enter the year\month of the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "are inporting. For example for" &
+        Me.LbBakerStep2.Text = "Step 2:     Enter the year\month of the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "are importing. For example for" &
     " March of 2019 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "enter 201903. Click Set Working Month."
         '
         'LbBakerStep1

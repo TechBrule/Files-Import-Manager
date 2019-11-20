@@ -34,4 +34,8 @@
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         Calmont.Show()
     End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        VTWine.Show()
+    End Sub
 End Class

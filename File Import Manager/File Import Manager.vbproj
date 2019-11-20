@@ -173,6 +173,12 @@
     <Compile Include="UNFICatalog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VTWine.Designer.vb">
+      <DependentUpon>VTWine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VTWine.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Welcome.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -224,6 +230,9 @@
     <EmbeddedResource Include="UNFICatalog.resx">
       <DependentUpon>UNFICatalog.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VTWine.resx">
+      <DependentUpon>VTWine.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.vb</DependentUpon>
     </EmbeddedResource>
@@ -253,6 +262,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FileImportManager.ico" />
+    <None Include="Resources\linkface.jpg" />
     <None Include="Resources\cog3.png" />
     <None Include="Resources\cog2.png" />
     <None Include="Resources\cog1.png" />

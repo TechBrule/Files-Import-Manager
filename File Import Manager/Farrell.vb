@@ -112,7 +112,7 @@ Public Class Farrell
         MyPipeline.Commands.AddScript("$from = " + Chr(34) + My.Settings.UsersEmail + Chr(34))
         MyPipeline.Commands.AddScript("$to =" + Chr(34) + My.Settings.BeerBuyersEmail + Chr(34) + "," + Chr(34) + "sc@hungermountain.coop" + Chr(34))
         MyPipeline.Commands.AddScript("$smtp = " + Chr(34) + My.Settings.MailSMTPServer + Chr(34))
-        MyPipeline.Commands.AddScript("$Sub = " + Chr(34) + "Farrell Monthly Sales Excluded Items" + Chr(34))
+        MyPipeline.Commands.AddScript("$Sub = " + Chr(34) + "Farrell Monthly Sales Excluded Items For " + WorkingYearMonth + Chr(34))
         MyPipeline.Commands.AddScript("$body = " + Chr(34) + "See attached file" + Chr(34))
         MyPipeline.Commands.AddScript("$secpasswd = ConvertTo-SecureString " + Chr(34) + My.Settings.UsersEmailPassword + Chr(34) + " -AsPlainText -Force")
         MyPipeline.Commands.AddScript("$mycreds = New-Object System.Management.Automation.PSCredential(" + Chr(34) + My.Settings.UsersEmail + Chr(34) + ", $secpasswd)")

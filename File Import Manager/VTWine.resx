@@ -117,23 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cog" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LinkSplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LinkSplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cog3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cog3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cog1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cog2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cog2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="linkface" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linkface.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LbVTWineStep1.Text" xml:space="preserve">
+    <value>Step 1:     Open the file sent by Farrell and clean anything that needs to be 
+fixed including removing empty rows and rows with bad or no UPC's. 
+Then add a new column to the right of the UPC field and use the concatinate
+funtion to join the UPC and the Check digit. Name this collumn UPC. Open 
+the template file \\hmc\it\CoopDB\Farrell\FarrellMonthlySales.xlsx and delete
+all the data but not the headers on the sheet named Wine. Copy the data but 
+not the headers in the new file and paste it into the Farrell MonthlySales.xlsx 
+file. Save it and close it. Save the cleaned file to the folder for the month/year in 
+\\hmc\it\coopdb\farrell.</value>
   </data>
 </root>

@@ -227,9 +227,9 @@ Partial Class Calmont
         Me.LbCalmontStep2.Location = New System.Drawing.Point(119, 396)
         Me.LbCalmontStep2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCalmontStep2.Name = "LbCalmontStep2"
-        Me.LbCalmontStep2.Size = New System.Drawing.Size(397, 75)
+        Me.LbCalmontStep2.Size = New System.Drawing.Size(399, 75)
         Me.LbCalmontStep2.TabIndex = 47
-        Me.LbCalmontStep2.Text = "Step 2:     Enter the year\month of the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "are inporting. For example for" &
+        Me.LbCalmontStep2.Text = "Step 2:     Enter the year\month of the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "are importing. For example for" &
     " March of 2019 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "enter 201903. Click Set Working Month."
         '
         'Label1

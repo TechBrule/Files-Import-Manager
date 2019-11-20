@@ -111,9 +111,9 @@ Partial Class Farrell
         Me.LbFarrellStep2.Location = New System.Drawing.Point(146, 392)
         Me.LbFarrellStep2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbFarrellStep2.Name = "LbFarrellStep2"
-        Me.LbFarrellStep2.Size = New System.Drawing.Size(397, 75)
+        Me.LbFarrellStep2.Size = New System.Drawing.Size(399, 75)
         Me.LbFarrellStep2.TabIndex = 30
-        Me.LbFarrellStep2.Text = "Step 2:     Enter the year\month of the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "are inporting. For example for" &
+        Me.LbFarrellStep2.Text = "Step 2:     Enter the year\month of the file you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "are importing. For example for" &
     " March of 2019 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "enter 201903. Click Set Working Month."
         '
         'Label1

@@ -165,6 +165,7 @@ Partial Class Welcome
         'Button10
         '
         Me.Button10.BackColor = System.Drawing.Color.DarkSeaGreen
+        Me.Button10.BackgroundImage = Global.File_Import_Manager.My.Resources.Resources.linkface
         Me.Button10.FlatAppearance.BorderSize = 0
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
