@@ -45,10 +45,10 @@ Partial Class VTWine
         'LbVTWineStep1
         '
         Me.LbVTWineStep1.AutoSize = True
-        Me.LbVTWineStep1.Location = New System.Drawing.Point(99, 121)
+        Me.LbVTWineStep1.Location = New System.Drawing.Point(99, 155)
         Me.LbVTWineStep1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbVTWineStep1.Name = "LbVTWineStep1"
-        Me.LbVTWineStep1.Size = New System.Drawing.Size(684, 225)
+        Me.LbVTWineStep1.Size = New System.Drawing.Size(684, 175)
         Me.LbVTWineStep1.TabIndex = 62
         Me.LbVTWineStep1.Text = resources.GetString("LbVTWineStep1.Text")
         '
@@ -236,7 +236,7 @@ Partial Class VTWine
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(164, 9)
+        Me.Label1.Location = New System.Drawing.Point(164, 25)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(735, 65)
@@ -268,7 +268,7 @@ Partial Class VTWine
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Segoe UI", 14.0!)
         Me.ForeColor = System.Drawing.Color.White
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "VTWine"
         Me.ShowIcon = False
         Me.ResumeLayout(False)
