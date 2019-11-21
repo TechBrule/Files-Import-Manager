@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LbCAPStep1.Text" xml:space="preserve">
+    <value>Step 1:     Open the file sent by Calmont and clean anything that needs to be 
+fixed including removing empty rows and rows with bad or no UPC's and the 
+top row. Open the template file 
+\\hmc\it\CoopDB\Calmont\CalmontMonthlySales.xlsx and delete
+all the data but not the headers on the sheet named Wine. Copy the data but 
+not the headers in the cleaned file and paste it into the CalmontMonthlySales.xlsx 
+file. Save it and close it. Save the cleaned file to the folder for the month/year in 
+\\hmc\it\coopdb\Calmont</value>
+  </data>
 </root>
