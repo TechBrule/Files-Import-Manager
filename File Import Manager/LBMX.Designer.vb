@@ -46,10 +46,10 @@ Partial Class LBMX
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(378, 9)
+        Me.Label1.Location = New System.Drawing.Point(343, 9)
         Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(486, 96)
+        Me.Label1.Size = New System.Drawing.Size(327, 65)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "LBMX Preview"
         '
@@ -58,10 +58,10 @@ Partial Class LBMX
         Me.LbLBMXStep1.AutoSize = True
         Me.LbLBMXStep1.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXStep1.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXStep1.Location = New System.Drawing.Point(101, 153)
+        Me.LbLBMXStep1.Location = New System.Drawing.Point(66, 116)
         Me.LbLBMXStep1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXStep1.Name = "LbLBMXStep1"
-        Me.LbLBMXStep1.Size = New System.Drawing.Size(994, 114)
+        Me.LbLBMXStep1.Size = New System.Drawing.Size(666, 75)
         Me.LbLBMXStep1.TabIndex = 1
         Me.LbLBMXStep1.Text = "Step 1:          Save the file sent from the Grocery Manager to your desktop and " &
     "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "open it in Excel. Name the sheet LBMX and save the file as a xlsx file named " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "LBMX to your desktop."
@@ -71,10 +71,10 @@ Partial Class LBMX
         Me.LbLBMXStep2.AutoSize = True
         Me.LbLBMXStep2.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXStep2.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXStep2.Location = New System.Drawing.Point(101, 307)
+        Me.LbLBMXStep2.Location = New System.Drawing.Point(66, 227)
         Me.LbLBMXStep2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXStep2.Name = "LbLBMXStep2"
-        Me.LbLBMXStep2.Size = New System.Drawing.Size(951, 76)
+        Me.LbLBMXStep2.Size = New System.Drawing.Size(641, 50)
         Me.LbLBMXStep2.TabIndex = 2
         Me.LbLBMXStep2.Text = "Step 2:          Fill the Working Month, Working Year and Working YearMonth" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Boxe" &
     "s and Click Set Working Data."
@@ -84,10 +84,10 @@ Partial Class LBMX
         Me.LbLBMXWorkingMonth.AutoSize = True
         Me.LbLBMXWorkingMonth.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXWorkingMonth.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXWorkingMonth.Location = New System.Drawing.Point(328, 432)
+        Me.LbLBMXWorkingMonth.Location = New System.Drawing.Point(293, 334)
         Me.LbLBMXWorkingMonth.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXWorkingMonth.Name = "LbLBMXWorkingMonth"
-        Me.LbLBMXWorkingMonth.Size = New System.Drawing.Size(425, 38)
+        Me.LbLBMXWorkingMonth.Size = New System.Drawing.Size(289, 25)
         Me.LbLBMXWorkingMonth.TabIndex = 3
         Me.LbLBMXWorkingMonth.Text = "Working Month (Select from List)"
         '
@@ -96,10 +96,10 @@ Partial Class LBMX
         Me.LbLBMXWorkingYear.AutoSize = True
         Me.LbLBMXWorkingYear.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXWorkingYear.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXWorkingYear.Location = New System.Drawing.Point(328, 499)
+        Me.LbLBMXWorkingYear.Location = New System.Drawing.Point(293, 391)
         Me.LbLBMXWorkingYear.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXWorkingYear.Name = "LbLBMXWorkingYear"
-        Me.LbLBMXWorkingYear.Size = New System.Drawing.Size(425, 38)
+        Me.LbLBMXWorkingYear.Size = New System.Drawing.Size(289, 25)
         Me.LbLBMXWorkingYear.TabIndex = 4
         Me.LbLBMXWorkingYear.Text = "Working Year (For example 2019)"
         '
@@ -108,10 +108,10 @@ Partial Class LBMX
         Me.LbLBMXWorkingYearMonth.AutoSize = True
         Me.LbLBMXWorkingYearMonth.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXWorkingYearMonth.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXWorkingYearMonth.Location = New System.Drawing.Point(328, 563)
+        Me.LbLBMXWorkingYearMonth.Location = New System.Drawing.Point(293, 446)
         Me.LbLBMXWorkingYearMonth.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXWorkingYearMonth.Name = "LbLBMXWorkingYearMonth"
-        Me.LbLBMXWorkingYearMonth.Size = New System.Drawing.Size(537, 38)
+        Me.LbLBMXWorkingYearMonth.Size = New System.Drawing.Size(365, 25)
         Me.LbLBMXWorkingYearMonth.TabIndex = 5
         Me.LbLBMXWorkingYearMonth.Text = "Working YearMonth (For example 201903)"
         '
@@ -120,10 +120,10 @@ Partial Class LBMX
         Me.LbLBMXStep3.AutoSize = True
         Me.LbLBMXStep3.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXStep3.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXStep3.Location = New System.Drawing.Point(101, 667)
+        Me.LbLBMXStep3.Location = New System.Drawing.Point(69, 530)
         Me.LbLBMXStep3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXStep3.Name = "LbLBMXStep3"
-        Me.LbLBMXStep3.Size = New System.Drawing.Size(676, 76)
+        Me.LbLBMXStep3.Size = New System.Drawing.Size(453, 50)
         Me.LbLBMXStep3.TabIndex = 6
         Me.LbLBMXStep3.Text = "Step 3:          Click Upload New File and select the file" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "you just saved."
         '
@@ -132,10 +132,10 @@ Partial Class LBMX
         Me.LbLBMXStep4.AutoSize = True
         Me.LbLBMXStep4.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXStep4.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXStep4.Location = New System.Drawing.Point(102, 819)
+        Me.LbLBMXStep4.Location = New System.Drawing.Point(69, 628)
         Me.LbLBMXStep4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXStep4.Name = "LbLBMXStep4"
-        Me.LbLBMXStep4.Size = New System.Drawing.Size(762, 114)
+        Me.LbLBMXStep4.Size = New System.Drawing.Size(518, 75)
         Me.LbLBMXStep4.TabIndex = 7
         Me.LbLBMXStep4.Text = "Step 4:     Click Run Import. Follow the prompts. Some " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "command windows will ope" &
     "n you will need to wait for them " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to close on their own before you continue."
@@ -145,27 +145,27 @@ Partial Class LBMX
         Me.LbLBMXStep5.AutoSize = True
         Me.LbLBMXStep5.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LbLBMXStep5.ForeColor = System.Drawing.Color.White
-        Me.LbLBMXStep5.Location = New System.Drawing.Point(102, 979)
+        Me.LbLBMXStep5.Location = New System.Drawing.Point(72, 734)
         Me.LbLBMXStep5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LbLBMXStep5.Name = "LbLBMXStep5"
-        Me.LbLBMXStep5.Size = New System.Drawing.Size(768, 152)
+        Me.LbLBMXStep5.Size = New System.Drawing.Size(515, 100)
         Me.LbLBMXStep5.TabIndex = 8
         Me.LbLBMXStep5.Text = resources.GetString("LbLBMXStep5.Text")
         '
         'TBLBMXWorkingYear
         '
-        Me.TBLBMXWorkingYear.Location = New System.Drawing.Point(109, 487)
+        Me.TBLBMXWorkingYear.Location = New System.Drawing.Point(74, 391)
         Me.TBLBMXWorkingYear.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.TBLBMXWorkingYear.Name = "TBLBMXWorkingYear"
-        Me.TBLBMXWorkingYear.Size = New System.Drawing.Size(196, 50)
+        Me.TBLBMXWorkingYear.Size = New System.Drawing.Size(196, 36)
         Me.TBLBMXWorkingYear.TabIndex = 10
         '
         'TBLBMXWorkingYearMonth
         '
-        Me.TBLBMXWorkingYearMonth.Location = New System.Drawing.Point(109, 551)
+        Me.TBLBMXWorkingYearMonth.Location = New System.Drawing.Point(74, 446)
         Me.TBLBMXWorkingYearMonth.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.TBLBMXWorkingYearMonth.Name = "TBLBMXWorkingYearMonth"
-        Me.TBLBMXWorkingYearMonth.Size = New System.Drawing.Size(196, 50)
+        Me.TBLBMXWorkingYearMonth.Size = New System.Drawing.Size(196, 36)
         Me.TBLBMXWorkingYearMonth.TabIndex = 11
         '
         'BntSetWorkingData
@@ -175,10 +175,10 @@ Partial Class LBMX
         Me.BntSetWorkingData.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BntSetWorkingData.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BntSetWorkingData.ForeColor = System.Drawing.Color.White
-        Me.BntSetWorkingData.Location = New System.Drawing.Point(868, 432)
+        Me.BntSetWorkingData.Location = New System.Drawing.Point(718, 321)
         Me.BntSetWorkingData.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.BntSetWorkingData.Name = "BntSetWorkingData"
-        Me.BntSetWorkingData.Size = New System.Drawing.Size(227, 169)
+        Me.BntSetWorkingData.Size = New System.Drawing.Size(162, 66)
         Me.BntSetWorkingData.TabIndex = 12
         Me.BntSetWorkingData.Text = "Set Working Data"
         Me.BntSetWorkingData.UseVisualStyleBackColor = False
@@ -190,10 +190,10 @@ Partial Class LBMX
         Me.BtnLBMXUploadNewFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLBMXUploadNewFile.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnLBMXUploadNewFile.ForeColor = System.Drawing.Color.White
-        Me.BtnLBMXUploadNewFile.Location = New System.Drawing.Point(868, 667)
+        Me.BtnLBMXUploadNewFile.Location = New System.Drawing.Point(718, 530)
         Me.BtnLBMXUploadNewFile.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.BtnLBMXUploadNewFile.Name = "BtnLBMXUploadNewFile"
-        Me.BtnLBMXUploadNewFile.Size = New System.Drawing.Size(227, 85)
+        Me.BtnLBMXUploadNewFile.Size = New System.Drawing.Size(162, 66)
         Me.BtnLBMXUploadNewFile.TabIndex = 13
         Me.BtnLBMXUploadNewFile.Text = "Upload New File"
         Me.BtnLBMXUploadNewFile.UseVisualStyleBackColor = False
@@ -205,10 +205,10 @@ Partial Class LBMX
         Me.BtnLBMXRun.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLBMXRun.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnLBMXRun.ForeColor = System.Drawing.Color.White
-        Me.BtnLBMXRun.Location = New System.Drawing.Point(868, 819)
+        Me.BtnLBMXRun.Location = New System.Drawing.Point(718, 628)
         Me.BtnLBMXRun.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.BtnLBMXRun.Name = "BtnLBMXRun"
-        Me.BtnLBMXRun.Size = New System.Drawing.Size(227, 85)
+        Me.BtnLBMXRun.Size = New System.Drawing.Size(162, 66)
         Me.BtnLBMXRun.TabIndex = 14
         Me.BtnLBMXRun.Text = "Run Import"
         Me.BtnLBMXRun.UseVisualStyleBackColor = False
@@ -220,10 +220,10 @@ Partial Class LBMX
         Me.BtnLBMXArchiveFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLBMXArchiveFile.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnLBMXArchiveFile.ForeColor = System.Drawing.Color.White
-        Me.BtnLBMXArchiveFile.Location = New System.Drawing.Point(868, 979)
+        Me.BtnLBMXArchiveFile.Location = New System.Drawing.Point(718, 734)
         Me.BtnLBMXArchiveFile.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.BtnLBMXArchiveFile.Name = "BtnLBMXArchiveFile"
-        Me.BtnLBMXArchiveFile.Size = New System.Drawing.Size(227, 85)
+        Me.BtnLBMXArchiveFile.Size = New System.Drawing.Size(162, 66)
         Me.BtnLBMXArchiveFile.TabIndex = 15
         Me.BtnLBMXArchiveFile.Text = "Archive File"
         Me.BtnLBMXArchiveFile.UseVisualStyleBackColor = False
@@ -232,17 +232,17 @@ Partial Class LBMX
         '
         Me.CBLBMXWorkingMonth.FormattingEnabled = True
         Me.CBLBMXWorkingMonth.Items.AddRange(New Object() {"January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "Giles"})
-        Me.CBLBMXWorkingMonth.Location = New System.Drawing.Point(109, 417)
+        Me.CBLBMXWorkingMonth.Location = New System.Drawing.Point(74, 334)
         Me.CBLBMXWorkingMonth.Name = "CBLBMXWorkingMonth"
-        Me.CBLBMXWorkingMonth.Size = New System.Drawing.Size(196, 53)
+        Me.CBLBMXWorkingMonth.Size = New System.Drawing.Size(196, 38)
         Me.CBLBMXWorkingMonth.TabIndex = 16
         '
         'LBMX
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(18.0!, 45.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 30.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1222, 1428)
+        Me.ClientSize = New System.Drawing.Size(1038, 937)
         Me.Controls.Add(Me.CBLBMXWorkingMonth)
         Me.Controls.Add(Me.BtnLBMXArchiveFile)
         Me.Controls.Add(Me.BtnLBMXRun)

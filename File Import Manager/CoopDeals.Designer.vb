@@ -22,7 +22,6 @@ Partial Class CoopDeals
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CoopDeals))
         Me.LbCDHeader = New System.Windows.Forms.Label()
         Me.LbCAPStep1 = New System.Windows.Forms.Label()
         Me.BTNSaveCAPCatapultExports = New System.Windows.Forms.Button()
@@ -60,17 +59,19 @@ Partial Class CoopDeals
         Me.LbCAPStep1.Location = New System.Drawing.Point(118, 111)
         Me.LbCAPStep1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep1.Name = "LbCAPStep1"
-        Me.LbCAPStep1.Size = New System.Drawing.Size(701, 200)
+        Me.LbCAPStep1.Size = New System.Drawing.Size(642, 75)
         Me.LbCAPStep1.TabIndex = 78
-        Me.LbCAPStep1.Text = resources.GetString("LbCAPStep1.Text")
+        Me.LbCAPStep1.Text = "Step 1:     Open the file saved from LBMX and name the sheet ExportPromo." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Save t" &
+    "he file as CAPImport.xlsx in the  \\hmc\it\CoopDB\UNFI CATAPULT\" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Folder in a ne" &
+    "w folder named for the Month and year. "
         '
         'BTNSaveCAPCatapultExports
         '
-        Me.BTNSaveCAPCatapultExports.BackColor = System.Drawing.Color.SandyBrown
+        Me.BTNSaveCAPCatapultExports.BackColor = System.Drawing.Color.Tomato
         Me.BTNSaveCAPCatapultExports.FlatAppearance.BorderSize = 0
         Me.BTNSaveCAPCatapultExports.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTNSaveCAPCatapultExports.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNSaveCAPCatapultExports.Location = New System.Drawing.Point(756, 1015)
+        Me.BTNSaveCAPCatapultExports.Location = New System.Drawing.Point(756, 873)
         Me.BTNSaveCAPCatapultExports.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BTNSaveCAPCatapultExports.Name = "BTNSaveCAPCatapultExports"
         Me.BTNSaveCAPCatapultExports.Size = New System.Drawing.Size(162, 66)
@@ -80,11 +81,11 @@ Partial Class CoopDeals
         '
         'BTNArchiveExcludes
         '
-        Me.BTNArchiveExcludes.BackColor = System.Drawing.Color.SandyBrown
+        Me.BTNArchiveExcludes.BackColor = System.Drawing.Color.Tomato
         Me.BTNArchiveExcludes.FlatAppearance.BorderSize = 0
         Me.BTNArchiveExcludes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTNArchiveExcludes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNArchiveExcludes.Location = New System.Drawing.Point(756, 908)
+        Me.BTNArchiveExcludes.Location = New System.Drawing.Point(756, 766)
         Me.BTNArchiveExcludes.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BTNArchiveExcludes.Name = "BTNArchiveExcludes"
         Me.BTNArchiveExcludes.Size = New System.Drawing.Size(162, 66)
@@ -94,11 +95,11 @@ Partial Class CoopDeals
         '
         'BTNEmailCAPExcludes
         '
-        Me.BTNEmailCAPExcludes.BackColor = System.Drawing.Color.SandyBrown
+        Me.BTNEmailCAPExcludes.BackColor = System.Drawing.Color.Tomato
         Me.BTNEmailCAPExcludes.FlatAppearance.BorderSize = 0
         Me.BTNEmailCAPExcludes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTNEmailCAPExcludes.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BTNEmailCAPExcludes.Location = New System.Drawing.Point(756, 803)
+        Me.BTNEmailCAPExcludes.Location = New System.Drawing.Point(756, 661)
         Me.BTNEmailCAPExcludes.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BTNEmailCAPExcludes.Name = "BTNEmailCAPExcludes"
         Me.BTNEmailCAPExcludes.Size = New System.Drawing.Size(162, 66)
@@ -108,11 +109,11 @@ Partial Class CoopDeals
         '
         'BtnCAPArchiveImport
         '
-        Me.BtnCAPArchiveImport.BackColor = System.Drawing.Color.SandyBrown
+        Me.BtnCAPArchiveImport.BackColor = System.Drawing.Color.Tomato
         Me.BtnCAPArchiveImport.FlatAppearance.BorderSize = 0
         Me.BtnCAPArchiveImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCAPArchiveImport.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCAPArchiveImport.Location = New System.Drawing.Point(756, 700)
+        Me.BtnCAPArchiveImport.Location = New System.Drawing.Point(756, 558)
         Me.BtnCAPArchiveImport.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnCAPArchiveImport.Name = "BtnCAPArchiveImport"
         Me.BtnCAPArchiveImport.Size = New System.Drawing.Size(162, 66)
@@ -122,11 +123,11 @@ Partial Class CoopDeals
         '
         'BtnCAPRunImport
         '
-        Me.BtnCAPRunImport.BackColor = System.Drawing.Color.SandyBrown
+        Me.BtnCAPRunImport.BackColor = System.Drawing.Color.Tomato
         Me.BtnCAPRunImport.FlatAppearance.BorderSize = 0
         Me.BtnCAPRunImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCAPRunImport.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCAPRunImport.Location = New System.Drawing.Point(756, 597)
+        Me.BtnCAPRunImport.Location = New System.Drawing.Point(756, 455)
         Me.BtnCAPRunImport.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnCAPRunImport.Name = "BtnCAPRunImport"
         Me.BtnCAPRunImport.Size = New System.Drawing.Size(162, 66)
@@ -136,11 +137,11 @@ Partial Class CoopDeals
         '
         'BtnCAPUploadFile
         '
-        Me.BtnCAPUploadFile.BackColor = System.Drawing.Color.SandyBrown
+        Me.BtnCAPUploadFile.BackColor = System.Drawing.Color.Tomato
         Me.BtnCAPUploadFile.FlatAppearance.BorderSize = 0
         Me.BtnCAPUploadFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCAPUploadFile.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCAPUploadFile.Location = New System.Drawing.Point(756, 493)
+        Me.BtnCAPUploadFile.Location = New System.Drawing.Point(756, 351)
         Me.BtnCAPUploadFile.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnCAPUploadFile.Name = "BtnCAPUploadFile"
         Me.BtnCAPUploadFile.Size = New System.Drawing.Size(162, 66)
@@ -150,11 +151,11 @@ Partial Class CoopDeals
         '
         'BtnCAPSetWorkingYearMonth
         '
-        Me.BtnCAPSetWorkingYearMonth.BackColor = System.Drawing.Color.SandyBrown
+        Me.BtnCAPSetWorkingYearMonth.BackColor = System.Drawing.Color.Tomato
         Me.BtnCAPSetWorkingYearMonth.FlatAppearance.BorderSize = 0
         Me.BtnCAPSetWorkingYearMonth.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCAPSetWorkingYearMonth.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCAPSetWorkingYearMonth.Location = New System.Drawing.Point(756, 383)
+        Me.BtnCAPSetWorkingYearMonth.Location = New System.Drawing.Point(756, 241)
         Me.BtnCAPSetWorkingYearMonth.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.BtnCAPSetWorkingYearMonth.Name = "BtnCAPSetWorkingYearMonth"
         Me.BtnCAPSetWorkingYearMonth.Size = New System.Drawing.Size(162, 66)
@@ -164,7 +165,7 @@ Partial Class CoopDeals
         '
         'TBCAPWorkingYearMonth
         '
-        Me.TBCAPWorkingYearMonth.Location = New System.Drawing.Point(576, 383)
+        Me.TBCAPWorkingYearMonth.Location = New System.Drawing.Point(576, 241)
         Me.TBCAPWorkingYearMonth.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.TBCAPWorkingYearMonth.Name = "TBCAPWorkingYearMonth"
         Me.TBCAPWorkingYearMonth.Size = New System.Drawing.Size(128, 32)
@@ -173,18 +174,18 @@ Partial Class CoopDeals
         'LbCAPStep8
         '
         Me.LbCAPStep8.AutoSize = True
-        Me.LbCAPStep8.Location = New System.Drawing.Point(118, 1015)
+        Me.LbCAPStep8.Location = New System.Drawing.Point(118, 873)
         Me.LbCAPStep8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep8.Name = "LbCAPStep8"
-        Me.LbCAPStep8.Size = New System.Drawing.Size(466, 50)
+        Me.LbCAPStep8.Size = New System.Drawing.Size(469, 50)
         Me.LbCAPStep8.TabIndex = 69
-        Me.LbCAPStep8.Text = "Step 8:     Export files for import into catapult. files are " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to  \\hmc" &
-    "\it\CoopDB\Farrell"
+        Me.LbCAPStep8.Text = "Step 8:     Export files for import into catapult. Files are " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to  \\hmc" &
+    "\it\CoopDB\UNFI CATAPULT\ "
         '
         'LbCAPStep7
         '
         Me.LbCAPStep7.AutoSize = True
-        Me.LbCAPStep7.Location = New System.Drawing.Point(118, 908)
+        Me.LbCAPStep7.Location = New System.Drawing.Point(118, 766)
         Me.LbCAPStep7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep7.Name = "LbCAPStep7"
         Me.LbCAPStep7.Size = New System.Drawing.Size(472, 50)
@@ -195,7 +196,7 @@ Partial Class CoopDeals
         'LbCAPStep6
         '
         Me.LbCAPStep6.AutoSize = True
-        Me.LbCAPStep6.Location = New System.Drawing.Point(118, 803)
+        Me.LbCAPStep6.Location = New System.Drawing.Point(118, 661)
         Me.LbCAPStep6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep6.Name = "LbCAPStep6"
         Me.LbCAPStep6.Size = New System.Drawing.Size(434, 25)
@@ -205,7 +206,7 @@ Partial Class CoopDeals
         'LbCAPStep5
         '
         Me.LbCAPStep5.AutoSize = True
-        Me.LbCAPStep5.Location = New System.Drawing.Point(118, 700)
+        Me.LbCAPStep5.Location = New System.Drawing.Point(118, 558)
         Me.LbCAPStep5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep5.Name = "LbCAPStep5"
         Me.LbCAPStep5.Size = New System.Drawing.Size(409, 25)
@@ -215,7 +216,7 @@ Partial Class CoopDeals
         'LbCAPStep4
         '
         Me.LbCAPStep4.AutoSize = True
-        Me.LbCAPStep4.Location = New System.Drawing.Point(118, 597)
+        Me.LbCAPStep4.Location = New System.Drawing.Point(118, 455)
         Me.LbCAPStep4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep4.Name = "LbCAPStep4"
         Me.LbCAPStep4.Size = New System.Drawing.Size(470, 75)
@@ -226,7 +227,7 @@ Partial Class CoopDeals
         'LbCAPStep3
         '
         Me.LbCAPStep3.AutoSize = True
-        Me.LbCAPStep3.Location = New System.Drawing.Point(118, 493)
+        Me.LbCAPStep3.Location = New System.Drawing.Point(118, 351)
         Me.LbCAPStep3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep3.Name = "LbCAPStep3"
         Me.LbCAPStep3.Size = New System.Drawing.Size(469, 50)
@@ -236,7 +237,7 @@ Partial Class CoopDeals
         'LbCAPStep2
         '
         Me.LbCAPStep2.AutoSize = True
-        Me.LbCAPStep2.Location = New System.Drawing.Point(118, 383)
+        Me.LbCAPStep2.Location = New System.Drawing.Point(118, 241)
         Me.LbCAPStep2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep2.Name = "LbCAPStep2"
         Me.LbCAPStep2.Size = New System.Drawing.Size(399, 75)

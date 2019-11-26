@@ -208,4 +208,5 @@ Public Class CoopDeals
 
     End Function
 
+
 End Class
