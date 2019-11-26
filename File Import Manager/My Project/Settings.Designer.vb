@@ -183,6 +183,30 @@ Namespace My
                 Me("MailAttachment") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property CAPExcludeList() As String
+            Get
+                Return CType(Me("CAPExcludeList"),String)
+            End Get
+            Set
+                Me("CAPExcludeList") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property CAPBulkExcludeList() As String
+            Get
+                Return CType(Me("CAPBulkExcludeList"),String)
+            End Get
+            Set
+                Me("CAPBulkExcludeList") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

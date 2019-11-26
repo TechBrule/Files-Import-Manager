@@ -10,6 +10,8 @@
         TBMailServer.Text = My.Settings.MailSMTPServer
         TBBeerBuyerEmail.Text = My.Settings.BeerBuyersEmail
         TBUsersEmailPassword.UseSystemPasswordChar = True
+        TBCAPExcludesList.Text = My.Settings.CAPExcludeList
+        TBCAPBulkExcludesList.Text = My.Settings.CAPBulkExcludeList
     End Sub
 
     Private Sub BtnSaveSettings_Click(sender As Object, e As EventArgs) Handles BtnSaveSettings.Click
@@ -19,7 +21,8 @@
         My.Settings.UsersEmailPassword = TBUsersEmailPassword.Text
         My.Settings.MailSMTPServer = TBMailServer.Text
         My.Settings.BeerBuyersEmail = TBBeerBuyerEmail.Text
-
+        My.Settings.CAPExcludeList = TBCAPExcludesList.Text
+        My.Settings.CAPBulkExcludeList = TBCAPBulkExcludesList.Text
     End Sub
 
     Private Sub BtnSetDebug_Click(sender As Object, e As EventArgs) Handles BtnSetDebug.Click

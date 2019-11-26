@@ -41,31 +41,38 @@ Partial Class Settings
         Me.TBMailServer = New System.Windows.Forms.TextBox()
         Me.LBBeerBuyerEmail = New System.Windows.Forms.Label()
         Me.TBBeerBuyerEmail = New System.Windows.Forms.TextBox()
+        Me.LblCapExcludes = New System.Windows.Forms.Label()
+        Me.TBCAPExcludesList = New System.Windows.Forms.TextBox()
+        Me.LblCapBulkExcludes = New System.Windows.Forms.Label()
+        Me.TBCAPBulkExcludesList = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TBSettingsServer
         '
         Me.TBSettingsServer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBSettingsServer.Location = New System.Drawing.Point(297, 171)
+        Me.TBSettingsServer.Location = New System.Drawing.Point(215, 111)
+        Me.TBSettingsServer.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TBSettingsServer.Name = "TBSettingsServer"
-        Me.TBSettingsServer.Size = New System.Drawing.Size(940, 39)
+        Me.TBSettingsServer.Size = New System.Drawing.Size(628, 29)
         Me.TBSettingsServer.TabIndex = 0
         '
         'TBSettingsDTEXECPath
         '
         Me.TBSettingsDTEXECPath.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBSettingsDTEXECPath.Location = New System.Drawing.Point(297, 252)
+        Me.TBSettingsDTEXECPath.Location = New System.Drawing.Point(215, 164)
+        Me.TBSettingsDTEXECPath.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TBSettingsDTEXECPath.Name = "TBSettingsDTEXECPath"
-        Me.TBSettingsDTEXECPath.Size = New System.Drawing.Size(940, 39)
+        Me.TBSettingsDTEXECPath.Size = New System.Drawing.Size(628, 29)
         Me.TBSettingsDTEXECPath.TabIndex = 1
         '
         'TBSettingsConnectionString
         '
         Me.TBSettingsConnectionString.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBSettingsConnectionString.Location = New System.Drawing.Point(297, 338)
+        Me.TBSettingsConnectionString.Location = New System.Drawing.Point(215, 220)
+        Me.TBSettingsConnectionString.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TBSettingsConnectionString.Name = "TBSettingsConnectionString"
         Me.TBSettingsConnectionString.ReadOnly = True
-        Me.TBSettingsConnectionString.Size = New System.Drawing.Size(940, 39)
+        Me.TBSettingsConnectionString.Size = New System.Drawing.Size(628, 29)
         Me.TBSettingsConnectionString.TabIndex = 2
         '
         'SettingsLBL
@@ -73,9 +80,10 @@ Partial Class Settings
         Me.SettingsLBL.AutoSize = True
         Me.SettingsLBL.Font = New System.Drawing.Font("Segoe UI", 36.0!)
         Me.SettingsLBL.ForeColor = System.Drawing.Color.White
-        Me.SettingsLBL.Location = New System.Drawing.Point(592, 15)
+        Me.SettingsLBL.Location = New System.Drawing.Point(412, 10)
+        Me.SettingsLBL.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.SettingsLBL.Name = "SettingsLBL"
-        Me.SettingsLBL.Size = New System.Drawing.Size(295, 96)
+        Me.SettingsLBL.Size = New System.Drawing.Size(198, 65)
         Me.SettingsLBL.TabIndex = 3
         Me.SettingsLBL.Text = "Settings"
         '
@@ -84,9 +92,10 @@ Partial Class Settings
         Me.LBLServer.AutoSize = True
         Me.LBLServer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBLServer.ForeColor = System.Drawing.Color.White
-        Me.LBLServer.Location = New System.Drawing.Point(176, 183)
+        Me.LBLServer.Location = New System.Drawing.Point(134, 119)
+        Me.LBLServer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBLServer.Name = "LBLServer"
-        Me.LBLServer.Size = New System.Drawing.Size(94, 32)
+        Me.LBLServer.Size = New System.Drawing.Size(62, 21)
         Me.LBLServer.TabIndex = 4
         Me.LBLServer.Text = "Server :"
         '
@@ -95,9 +104,10 @@ Partial Class Settings
         Me.DtexecPathLBL.AutoSize = True
         Me.DtexecPathLBL.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.DtexecPathLBL.ForeColor = System.Drawing.Color.White
-        Me.DtexecPathLBL.Location = New System.Drawing.Point(84, 265)
+        Me.DtexecPathLBL.Location = New System.Drawing.Point(73, 172)
+        Me.DtexecPathLBL.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.DtexecPathLBL.Name = "DtexecPathLBL"
-        Me.DtexecPathLBL.Size = New System.Drawing.Size(195, 32)
+        Me.DtexecPathLBL.Size = New System.Drawing.Size(123, 21)
         Me.DtexecPathLBL.TabIndex = 5
         Me.DtexecPathLBL.Text = "Dtexec.exe Path :"
         '
@@ -106,9 +116,10 @@ Partial Class Settings
         Me.ConnectionStringLBL.AutoSize = True
         Me.ConnectionStringLBL.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.ConnectionStringLBL.ForeColor = System.Drawing.Color.White
-        Me.ConnectionStringLBL.Location = New System.Drawing.Point(57, 351)
+        Me.ConnectionStringLBL.Location = New System.Drawing.Point(55, 228)
+        Me.ConnectionStringLBL.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.ConnectionStringLBL.Name = "ConnectionStringLBL"
-        Me.ConnectionStringLBL.Size = New System.Drawing.Size(219, 32)
+        Me.ConnectionStringLBL.Size = New System.Drawing.Size(141, 21)
         Me.ConnectionStringLBL.TabIndex = 6
         Me.ConnectionStringLBL.Text = "Connection String :"
         '
@@ -119,9 +130,10 @@ Partial Class Settings
         Me.BtnSaveSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSaveSettings.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.BtnSaveSettings.ForeColor = System.Drawing.Color.White
-        Me.BtnSaveSettings.Location = New System.Drawing.Point(940, 869)
+        Me.BtnSaveSettings.Location = New System.Drawing.Point(644, 647)
+        Me.BtnSaveSettings.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnSaveSettings.Name = "BtnSaveSettings"
-        Me.BtnSaveSettings.Size = New System.Drawing.Size(297, 82)
+        Me.BtnSaveSettings.Size = New System.Drawing.Size(198, 53)
         Me.BtnSaveSettings.TabIndex = 7
         Me.BtnSaveSettings.Text = "Save Settings"
         Me.BtnSaveSettings.UseVisualStyleBackColor = False
@@ -133,9 +145,10 @@ Partial Class Settings
         Me.BtnSetDebug.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSetDebug.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.BtnSetDebug.ForeColor = System.Drawing.Color.White
-        Me.BtnSetDebug.Location = New System.Drawing.Point(297, 869)
+        Me.BtnSetDebug.Location = New System.Drawing.Point(215, 647)
+        Me.BtnSetDebug.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnSetDebug.Name = "BtnSetDebug"
-        Me.BtnSetDebug.Size = New System.Drawing.Size(252, 82)
+        Me.BtnSetDebug.Size = New System.Drawing.Size(168, 53)
         Me.BtnSetDebug.TabIndex = 8
         Me.BtnSetDebug.Text = "Set Debug Mode"
         Me.BtnSetDebug.UseVisualStyleBackColor = False
@@ -145,9 +158,10 @@ Partial Class Settings
         Me.LblDebugStatus.AutoSize = True
         Me.LblDebugStatus.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblDebugStatus.ForeColor = System.Drawing.Color.White
-        Me.LblDebugStatus.Location = New System.Drawing.Point(287, 991)
+        Me.LblDebugStatus.Location = New System.Drawing.Point(208, 700)
+        Me.LblDebugStatus.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblDebugStatus.Name = "LblDebugStatus"
-        Me.LblDebugStatus.Size = New System.Drawing.Size(480, 55)
+        Me.LblDebugStatus.Size = New System.Drawing.Size(321, 37)
         Me.LblDebugStatus.TabIndex = 9
         Me.LblDebugStatus.Text = "Debug Status : Disabled"
         '
@@ -156,9 +170,10 @@ Partial Class Settings
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 36.0!)
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(509, 411)
+        Me.Label1.Location = New System.Drawing.Point(356, 267)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(451, 96)
+        Me.Label1.Size = New System.Drawing.Size(302, 65)
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Mail Settings"
         '
@@ -167,18 +182,20 @@ Partial Class Settings
         Me.LBUsersEmail.AutoSize = True
         Me.LBUsersEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBUsersEmail.ForeColor = System.Drawing.Color.White
-        Me.LBUsersEmail.Location = New System.Drawing.Point(122, 530)
+        Me.LBUsersEmail.Location = New System.Drawing.Point(98, 344)
+        Me.LBUsersEmail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBUsersEmail.Name = "LBUsersEmail"
-        Me.LBUsersEmail.Size = New System.Drawing.Size(148, 32)
+        Me.LBUsersEmail.Size = New System.Drawing.Size(98, 21)
         Me.LBUsersEmail.TabIndex = 12
         Me.LBUsersEmail.Text = "Users Email :"
         '
         'TBUsersEmail
         '
         Me.TBUsersEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBUsersEmail.Location = New System.Drawing.Point(297, 523)
+        Me.TBUsersEmail.Location = New System.Drawing.Point(215, 340)
+        Me.TBUsersEmail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TBUsersEmail.Name = "TBUsersEmail"
-        Me.TBUsersEmail.Size = New System.Drawing.Size(940, 39)
+        Me.TBUsersEmail.Size = New System.Drawing.Size(628, 29)
         Me.TBUsersEmail.TabIndex = 11
         '
         'LBUsersEmailPassword
@@ -186,18 +203,20 @@ Partial Class Settings
         Me.LBUsersEmailPassword.AutoSize = True
         Me.LBUsersEmailPassword.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBUsersEmailPassword.ForeColor = System.Drawing.Color.White
-        Me.LBUsersEmailPassword.Location = New System.Drawing.Point(18, 616)
+        Me.LBUsersEmailPassword.Location = New System.Drawing.Point(29, 400)
+        Me.LBUsersEmailPassword.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBUsersEmailPassword.Name = "LBUsersEmailPassword"
-        Me.LBUsersEmailPassword.Size = New System.Drawing.Size(252, 32)
+        Me.LBUsersEmailPassword.Size = New System.Drawing.Size(168, 21)
         Me.LBUsersEmailPassword.TabIndex = 14
         Me.LBUsersEmailPassword.Text = "Users Email Password :"
         '
         'TBUsersEmailPassword
         '
         Me.TBUsersEmailPassword.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBUsersEmailPassword.Location = New System.Drawing.Point(297, 609)
+        Me.TBUsersEmailPassword.Location = New System.Drawing.Point(215, 396)
+        Me.TBUsersEmailPassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TBUsersEmailPassword.Name = "TBUsersEmailPassword"
-        Me.TBUsersEmailPassword.Size = New System.Drawing.Size(940, 39)
+        Me.TBUsersEmailPassword.Size = New System.Drawing.Size(628, 29)
         Me.TBUsersEmailPassword.TabIndex = 13
         '
         'LBSMTPServer
@@ -205,18 +224,20 @@ Partial Class Settings
         Me.LBSMTPServer.AutoSize = True
         Me.LBSMTPServer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBSMTPServer.ForeColor = System.Drawing.Color.White
-        Me.LBSMTPServer.Location = New System.Drawing.Point(130, 697)
+        Me.LBSMTPServer.Location = New System.Drawing.Point(104, 453)
+        Me.LBSMTPServer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBSMTPServer.Name = "LBSMTPServer"
-        Me.LBSMTPServer.Size = New System.Drawing.Size(140, 32)
+        Me.LBSMTPServer.Size = New System.Drawing.Size(92, 21)
         Me.LBSMTPServer.TabIndex = 16
         Me.LBSMTPServer.Text = "Mail Server:"
         '
         'TBMailServer
         '
         Me.TBMailServer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBMailServer.Location = New System.Drawing.Point(297, 690)
+        Me.TBMailServer.Location = New System.Drawing.Point(215, 448)
+        Me.TBMailServer.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TBMailServer.Name = "TBMailServer"
-        Me.TBMailServer.Size = New System.Drawing.Size(940, 39)
+        Me.TBMailServer.Size = New System.Drawing.Size(628, 29)
         Me.TBMailServer.TabIndex = 15
         '
         'LBBeerBuyerEmail
@@ -224,26 +245,74 @@ Partial Class Settings
         Me.LBBeerBuyerEmail.AutoSize = True
         Me.LBBeerBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBBeerBuyerEmail.ForeColor = System.Drawing.Color.White
-        Me.LBBeerBuyerEmail.Location = New System.Drawing.Point(70, 778)
+        Me.LBBeerBuyerEmail.Location = New System.Drawing.Point(64, 506)
+        Me.LBBeerBuyerEmail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBBeerBuyerEmail.Name = "LBBeerBuyerEmail"
-        Me.LBBeerBuyerEmail.Size = New System.Drawing.Size(200, 32)
+        Me.LBBeerBuyerEmail.Size = New System.Drawing.Size(130, 21)
         Me.LBBeerBuyerEmail.TabIndex = 18
         Me.LBBeerBuyerEmail.Text = "Beer Buyer Email:"
         '
         'TBBeerBuyerEmail
         '
         Me.TBBeerBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBBeerBuyerEmail.Location = New System.Drawing.Point(297, 771)
+        Me.TBBeerBuyerEmail.Location = New System.Drawing.Point(215, 501)
+        Me.TBBeerBuyerEmail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TBBeerBuyerEmail.Name = "TBBeerBuyerEmail"
-        Me.TBBeerBuyerEmail.Size = New System.Drawing.Size(940, 39)
+        Me.TBBeerBuyerEmail.Size = New System.Drawing.Size(628, 29)
         Me.TBBeerBuyerEmail.TabIndex = 17
+        '
+        'LblCapExcludes
+        '
+        Me.LblCapExcludes.AutoSize = True
+        Me.LblCapExcludes.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.LblCapExcludes.ForeColor = System.Drawing.Color.White
+        Me.LblCapExcludes.Location = New System.Drawing.Point(42, 556)
+        Me.LblCapExcludes.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LblCapExcludes.Name = "LblCapExcludes"
+        Me.LblCapExcludes.Size = New System.Drawing.Size(154, 21)
+        Me.LblCapExcludes.TabIndex = 20
+        Me.LblCapExcludes.Text = "CAP Excludes Emails:"
+        '
+        'TBCAPExcludesList
+        '
+        Me.TBCAPExcludesList.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.TBCAPExcludesList.Location = New System.Drawing.Point(215, 553)
+        Me.TBCAPExcludesList.Margin = New System.Windows.Forms.Padding(2)
+        Me.TBCAPExcludesList.Name = "TBCAPExcludesList"
+        Me.TBCAPExcludesList.Size = New System.Drawing.Size(628, 29)
+        Me.TBCAPExcludesList.TabIndex = 19
+        '
+        'LblCapBulkExcludes
+        '
+        Me.LblCapBulkExcludes.AutoSize = True
+        Me.LblCapBulkExcludes.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.LblCapBulkExcludes.ForeColor = System.Drawing.Color.White
+        Me.LblCapBulkExcludes.Location = New System.Drawing.Point(4, 610)
+        Me.LblCapBulkExcludes.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LblCapBulkExcludes.Name = "LblCapBulkExcludes"
+        Me.LblCapBulkExcludes.Size = New System.Drawing.Size(181, 21)
+        Me.LblCapBulkExcludes.TabIndex = 22
+        Me.LblCapBulkExcludes.Text = "CAP Bulk Excludes Email:"
+        '
+        'TBCAPBulkExcludesList
+        '
+        Me.TBCAPBulkExcludesList.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.TBCAPBulkExcludesList.Location = New System.Drawing.Point(215, 607)
+        Me.TBCAPBulkExcludesList.Margin = New System.Windows.Forms.Padding(2)
+        Me.TBCAPBulkExcludesList.Name = "TBCAPBulkExcludesList"
+        Me.TBCAPBulkExcludesList.Size = New System.Drawing.Size(628, 29)
+        Me.TBCAPBulkExcludesList.TabIndex = 21
         '
         'Settings
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1384, 1142)
+        Me.ClientSize = New System.Drawing.Size(923, 742)
+        Me.Controls.Add(Me.LblCapBulkExcludes)
+        Me.Controls.Add(Me.TBCAPBulkExcludesList)
+        Me.Controls.Add(Me.LblCapExcludes)
+        Me.Controls.Add(Me.TBCAPExcludesList)
         Me.Controls.Add(Me.LBBeerBuyerEmail)
         Me.Controls.Add(Me.TBBeerBuyerEmail)
         Me.Controls.Add(Me.LBSMTPServer)
@@ -263,6 +332,7 @@ Partial Class Settings
         Me.Controls.Add(Me.TBSettingsConnectionString)
         Me.Controls.Add(Me.TBSettingsDTEXECPath)
         Me.Controls.Add(Me.TBSettingsServer)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Settings"
         Me.Text = "Settings"
         Me.ResumeLayout(False)
@@ -289,4 +359,8 @@ Partial Class Settings
     Friend WithEvents TBMailServer As TextBox
     Friend WithEvents LBBeerBuyerEmail As Label
     Friend WithEvents TBBeerBuyerEmail As TextBox
+    Friend WithEvents LblCapExcludes As Label
+    Friend WithEvents TBCAPExcludesList As TextBox
+    Friend WithEvents LblCapBulkExcludes As Label
+    Friend WithEvents TBCAPBulkExcludesList As TextBox
 End Class
