@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class CoopDeals
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class CoopDeals
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.LbCDHeader = New System.Windows.Forms.Label()
         Me.LbCAPStep1 = New System.Windows.Forms.Label()
@@ -90,7 +90,7 @@ Partial Class CoopDeals
         Me.BTNArchiveExcludes.Name = "BTNArchiveExcludes"
         Me.BTNArchiveExcludes.Size = New System.Drawing.Size(162, 66)
         Me.BTNArchiveExcludes.TabIndex = 76
-        Me.BTNArchiveExcludes.Text = "Archive File"
+        Me.BTNArchiveExcludes.Text = "Archive Files"
         Me.BTNArchiveExcludes.UseVisualStyleBackColor = False
         '
         'BTNEmailCAPExcludes
@@ -104,7 +104,7 @@ Partial Class CoopDeals
         Me.BTNEmailCAPExcludes.Name = "BTNEmailCAPExcludes"
         Me.BTNEmailCAPExcludes.Size = New System.Drawing.Size(162, 66)
         Me.BTNEmailCAPExcludes.TabIndex = 75
-        Me.BTNEmailCAPExcludes.Text = "Email Buyer"
+        Me.BTNEmailCAPExcludes.Text = "Email Buyers"
         Me.BTNEmailCAPExcludes.UseVisualStyleBackColor = False
         '
         'BtnCAPArchiveImport
@@ -188,10 +188,10 @@ Partial Class CoopDeals
         Me.LbCAPStep7.Location = New System.Drawing.Point(118, 766)
         Me.LbCAPStep7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep7.Name = "LbCAPStep7"
-        Me.LbCAPStep7.Size = New System.Drawing.Size(472, 50)
+        Me.LbCAPStep7.Size = New System.Drawing.Size(440, 50)
         Me.LbCAPStep7.TabIndex = 68
-        Me.LbCAPStep7.Text = "Step 7:     Click Archive File to archive the excludes file. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Follow the prompts" &
-    "."
+        Me.LbCAPStep7.Text = "Step 7:     Click Archive Files to archive the excludes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "file and the change file" &
+    ". Follow the prompts."
         '
         'LbCAPStep6
         '
@@ -199,9 +199,9 @@ Partial Class CoopDeals
         Me.LbCAPStep6.Location = New System.Drawing.Point(118, 661)
         Me.LbCAPStep6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbCAPStep6.Name = "LbCAPStep6"
-        Me.LbCAPStep6.Size = New System.Drawing.Size(434, 25)
+        Me.LbCAPStep6.Size = New System.Drawing.Size(416, 50)
         Me.LbCAPStep6.TabIndex = 67
-        Me.LbCAPStep6.Text = "Step 6:     Email the excluded list to the Beer Buyer."
+        Me.LbCAPStep6.Text = "Step 6:     Email the excluded list and the change" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "list to the Buyers."
         '
         'LbCAPStep5
         '
