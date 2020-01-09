@@ -124,7 +124,7 @@ Public Class UNFICatalog
         MyPipeline.Commands.AddScript("$to =" + Chr(34) + My.Settings.BulkBuyersEmail + Chr(34) + "," + Chr(34) + "sc@hungermountain.coop" + Chr(34))
         MyPipeline.Commands.AddScript("$smtp = " + Chr(34) + My.Settings.MailSMTPServer + Chr(34))
         MyPipeline.Commands.AddScript("$Sub = " + Chr(34) + "UNFI Bulk Monthly Price Changes For " + WorkingYearMonth + Chr(34))
-        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                      Master file is up!
+        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                              Master file is up!
 
                                                               Please fill out the sheet and return!
 
@@ -207,7 +207,7 @@ Public Class UNFICatalog
         MyPipeline.Commands.AddScript("$to =" + Chr(34) + My.Settings.CheeseBuyersEmail + Chr(34) + "," + Chr(34) + "sc@hungermountain.coop" + Chr(34))
         MyPipeline.Commands.AddScript("$smtp = " + Chr(34) + My.Settings.MailSMTPServer + Chr(34))
         MyPipeline.Commands.AddScript("$Sub = " + Chr(34) + "UNFI Cheese Monthly Price Changes For " + WorkingYearMonth + Chr(34))
-        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                      Master file is up!
+        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                              Master file is up!
 
                                                               Please fill out the sheet and return!
 
@@ -263,7 +263,7 @@ Public Class UNFICatalog
         MyPipeline.Commands.AddScript("$to =" + Chr(34) + My.Settings.GroceryBuyersEmail + Chr(34) + "," + Chr(34) + "sc@hungermountain.coop" + Chr(34))
         MyPipeline.Commands.AddScript("$smtp = " + Chr(34) + My.Settings.MailSMTPServer + Chr(34))
         MyPipeline.Commands.AddScript("$Sub = " + Chr(34) + "UNFI Grocery, Frozen and Refrigerated Monthly Price Changes For " + WorkingYearMonth + Chr(34))
-        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                      Master file is up!
+        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                              Master file is up!
 
                                                               Please fill out the sheet and return!
 
@@ -318,7 +318,7 @@ Public Class UNFICatalog
         MyPipeline.Commands.AddScript("$to =" + Chr(34) + My.Settings.MeatBuyersEmail + Chr(34) + "," + Chr(34) + "sc@hungermountain.coop" + Chr(34))
         MyPipeline.Commands.AddScript("$smtp = " + Chr(34) + My.Settings.MailSMTPServer + Chr(34))
         MyPipeline.Commands.AddScript("$Sub = " + Chr(34) + "UNFI Meat Monthly Price Changes For " + WorkingYearMonth + Chr(34))
-        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                      Master file is up!
+        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                              Master file is up!
 
                                                               Please fill out the sheet and return!
 
@@ -374,7 +374,7 @@ Public Class UNFICatalog
         MyPipeline.Commands.AddScript("$to =" + Chr(34) + My.Settings.WellnessBuyersEmail + Chr(34) + "," + Chr(34) + "sc@hungermountain.coop" + Chr(34))
         MyPipeline.Commands.AddScript("$smtp = " + Chr(34) + My.Settings.MailSMTPServer + Chr(34))
         MyPipeline.Commands.AddScript("$Sub = " + Chr(34) + "UNFI Wellness Monthly Price Changes For " + WorkingYearMonth + Chr(34))
-        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                      Master file is up!
+        MyPipeline.Commands.AddScript("$body = " + Chr(34) + "                                                              Master file is up!
 
                                                               Please fill out the sheet and return!
 
