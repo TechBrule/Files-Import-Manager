@@ -117,27 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LbUNFIStep2.Text" xml:space="preserve">
+    <value>Step 2:     Enter the year\month of the file you 
+are inporting in the top box. For example for 
+March of 2019 enter 201903. In the bottom box
+enter the date the costing goes into effect.
+Click Set Dates.</value>
+  </data>
   <data name="LbUNFIStep6.Text" xml:space="preserve">
     <value>Step 6:     Click Open Catalog. This will Open 2 Excel Files, 
 the template and the data for the catalog. The data file 
-will auto update on open. Copy the data and paste it 
-into the template file. Save a copy of the tempate file like 
+will auto update on open. Copy the data and paste it as 
+values into the template file. Then format it as a table using 
+a green template. Save a copy of the tempate file like 
 this 'YYYYMM UNFI Full Catalog' and upload it to the 
 Team Site under the Buyers\Vendor Catalog\UNFI page. 
 Email the Buyers to let them know the new catalog is 
 available. close all worksheets without saving.</value>
   </data>
-  <data name="LbUNFIStep7.Text" xml:space="preserve">
-    <value>Step 7:     Click Open Mass Updates. This will open several 
-Excel Files. As the files open they will auto update their 
-data. Save a copy of each of these names as 
-'UNFI MMM Mass Updates Department' and then send 
-them in one email to Buyers@hungermountain.coop. 
-After you get them back delete all rows where no change 
-has been made. Save them as a Tab Delimited Text File. 
-Import this into Catapult with the import spec 
-UNFI Mass Updates. Save the Excel files to
- "\\hmc\it\CoopDB\UNFI Catapult\UNFI Mass Updates\
-Month Year". Save the text files to the same folder.</value>
-  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

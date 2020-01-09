@@ -45,13 +45,23 @@ Partial Class Settings
         Me.TBCAPExcludesList = New System.Windows.Forms.TextBox()
         Me.LblCapBulkExcludes = New System.Windows.Forms.Label()
         Me.TBCAPBulkExcludesList = New System.Windows.Forms.TextBox()
+        Me.LbBulkBuyer = New System.Windows.Forms.Label()
+        Me.TBBulkBuyerEmail = New System.Windows.Forms.TextBox()
+        Me.LbCheeseBuyer = New System.Windows.Forms.Label()
+        Me.TBCheeseBuyerEmail = New System.Windows.Forms.TextBox()
+        Me.LbGroceryBuyer = New System.Windows.Forms.Label()
+        Me.TBGroceryBuyerEmail = New System.Windows.Forms.TextBox()
+        Me.LbMeatBuyerEmail = New System.Windows.Forms.Label()
+        Me.TBMeatBuyerEmail = New System.Windows.Forms.TextBox()
+        Me.LbWellnessBuyerEmail = New System.Windows.Forms.Label()
+        Me.TBWellnessBuyerEmail = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TBSettingsServer
         '
         Me.TBSettingsServer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TBSettingsServer.Location = New System.Drawing.Point(215, 111)
-        Me.TBSettingsServer.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TBSettingsServer.Margin = New System.Windows.Forms.Padding(2)
         Me.TBSettingsServer.Name = "TBSettingsServer"
         Me.TBSettingsServer.Size = New System.Drawing.Size(628, 29)
         Me.TBSettingsServer.TabIndex = 0
@@ -60,7 +70,7 @@ Partial Class Settings
         '
         Me.TBSettingsDTEXECPath.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TBSettingsDTEXECPath.Location = New System.Drawing.Point(215, 164)
-        Me.TBSettingsDTEXECPath.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TBSettingsDTEXECPath.Margin = New System.Windows.Forms.Padding(2)
         Me.TBSettingsDTEXECPath.Name = "TBSettingsDTEXECPath"
         Me.TBSettingsDTEXECPath.Size = New System.Drawing.Size(628, 29)
         Me.TBSettingsDTEXECPath.TabIndex = 1
@@ -69,7 +79,7 @@ Partial Class Settings
         '
         Me.TBSettingsConnectionString.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TBSettingsConnectionString.Location = New System.Drawing.Point(215, 220)
-        Me.TBSettingsConnectionString.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TBSettingsConnectionString.Margin = New System.Windows.Forms.Padding(2)
         Me.TBSettingsConnectionString.Name = "TBSettingsConnectionString"
         Me.TBSettingsConnectionString.ReadOnly = True
         Me.TBSettingsConnectionString.Size = New System.Drawing.Size(628, 29)
@@ -130,8 +140,8 @@ Partial Class Settings
         Me.BtnSaveSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSaveSettings.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.BtnSaveSettings.ForeColor = System.Drawing.Color.White
-        Me.BtnSaveSettings.Location = New System.Drawing.Point(644, 647)
-        Me.BtnSaveSettings.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnSaveSettings.Location = New System.Drawing.Point(644, 921)
+        Me.BtnSaveSettings.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnSaveSettings.Name = "BtnSaveSettings"
         Me.BtnSaveSettings.Size = New System.Drawing.Size(198, 53)
         Me.BtnSaveSettings.TabIndex = 7
@@ -145,8 +155,8 @@ Partial Class Settings
         Me.BtnSetDebug.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSetDebug.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.BtnSetDebug.ForeColor = System.Drawing.Color.White
-        Me.BtnSetDebug.Location = New System.Drawing.Point(215, 647)
-        Me.BtnSetDebug.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnSetDebug.Location = New System.Drawing.Point(215, 921)
+        Me.BtnSetDebug.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnSetDebug.Name = "BtnSetDebug"
         Me.BtnSetDebug.Size = New System.Drawing.Size(168, 53)
         Me.BtnSetDebug.TabIndex = 8
@@ -158,7 +168,7 @@ Partial Class Settings
         Me.LblDebugStatus.AutoSize = True
         Me.LblDebugStatus.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblDebugStatus.ForeColor = System.Drawing.Color.White
-        Me.LblDebugStatus.Location = New System.Drawing.Point(208, 700)
+        Me.LblDebugStatus.Location = New System.Drawing.Point(208, 974)
         Me.LblDebugStatus.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblDebugStatus.Name = "LblDebugStatus"
         Me.LblDebugStatus.Size = New System.Drawing.Size(321, 37)
@@ -182,7 +192,7 @@ Partial Class Settings
         Me.LBUsersEmail.AutoSize = True
         Me.LBUsersEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBUsersEmail.ForeColor = System.Drawing.Color.White
-        Me.LBUsersEmail.Location = New System.Drawing.Point(98, 344)
+        Me.LBUsersEmail.Location = New System.Drawing.Point(98, 348)
         Me.LBUsersEmail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBUsersEmail.Name = "LBUsersEmail"
         Me.LBUsersEmail.Size = New System.Drawing.Size(98, 21)
@@ -193,7 +203,7 @@ Partial Class Settings
         '
         Me.TBUsersEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TBUsersEmail.Location = New System.Drawing.Point(215, 340)
-        Me.TBUsersEmail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TBUsersEmail.Margin = New System.Windows.Forms.Padding(2)
         Me.TBUsersEmail.Name = "TBUsersEmail"
         Me.TBUsersEmail.Size = New System.Drawing.Size(628, 29)
         Me.TBUsersEmail.TabIndex = 11
@@ -203,7 +213,7 @@ Partial Class Settings
         Me.LBUsersEmailPassword.AutoSize = True
         Me.LBUsersEmailPassword.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBUsersEmailPassword.ForeColor = System.Drawing.Color.White
-        Me.LBUsersEmailPassword.Location = New System.Drawing.Point(29, 400)
+        Me.LBUsersEmailPassword.Location = New System.Drawing.Point(28, 404)
         Me.LBUsersEmailPassword.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBUsersEmailPassword.Name = "LBUsersEmailPassword"
         Me.LBUsersEmailPassword.Size = New System.Drawing.Size(168, 21)
@@ -214,7 +224,7 @@ Partial Class Settings
         '
         Me.TBUsersEmailPassword.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TBUsersEmailPassword.Location = New System.Drawing.Point(215, 396)
-        Me.TBUsersEmailPassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TBUsersEmailPassword.Margin = New System.Windows.Forms.Padding(2)
         Me.TBUsersEmailPassword.Name = "TBUsersEmailPassword"
         Me.TBUsersEmailPassword.Size = New System.Drawing.Size(628, 29)
         Me.TBUsersEmailPassword.TabIndex = 13
@@ -224,7 +234,7 @@ Partial Class Settings
         Me.LBSMTPServer.AutoSize = True
         Me.LBSMTPServer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBSMTPServer.ForeColor = System.Drawing.Color.White
-        Me.LBSMTPServer.Location = New System.Drawing.Point(104, 453)
+        Me.LBSMTPServer.Location = New System.Drawing.Point(104, 456)
         Me.LBSMTPServer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBSMTPServer.Name = "LBSMTPServer"
         Me.LBSMTPServer.Size = New System.Drawing.Size(92, 21)
@@ -235,7 +245,7 @@ Partial Class Settings
         '
         Me.TBMailServer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TBMailServer.Location = New System.Drawing.Point(215, 448)
-        Me.TBMailServer.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TBMailServer.Margin = New System.Windows.Forms.Padding(2)
         Me.TBMailServer.Name = "TBMailServer"
         Me.TBMailServer.Size = New System.Drawing.Size(628, 29)
         Me.TBMailServer.TabIndex = 15
@@ -245,7 +255,7 @@ Partial Class Settings
         Me.LBBeerBuyerEmail.AutoSize = True
         Me.LBBeerBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LBBeerBuyerEmail.ForeColor = System.Drawing.Color.White
-        Me.LBBeerBuyerEmail.Location = New System.Drawing.Point(64, 506)
+        Me.LBBeerBuyerEmail.Location = New System.Drawing.Point(63, 509)
         Me.LBBeerBuyerEmail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LBBeerBuyerEmail.Name = "LBBeerBuyerEmail"
         Me.LBBeerBuyerEmail.Size = New System.Drawing.Size(130, 21)
@@ -256,7 +266,7 @@ Partial Class Settings
         '
         Me.TBBeerBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.TBBeerBuyerEmail.Location = New System.Drawing.Point(215, 501)
-        Me.TBBeerBuyerEmail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TBBeerBuyerEmail.Margin = New System.Windows.Forms.Padding(2)
         Me.TBBeerBuyerEmail.Name = "TBBeerBuyerEmail"
         Me.TBBeerBuyerEmail.Size = New System.Drawing.Size(628, 29)
         Me.TBBeerBuyerEmail.TabIndex = 17
@@ -266,7 +276,7 @@ Partial Class Settings
         Me.LblCapExcludes.AutoSize = True
         Me.LblCapExcludes.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LblCapExcludes.ForeColor = System.Drawing.Color.White
-        Me.LblCapExcludes.Location = New System.Drawing.Point(42, 556)
+        Me.LblCapExcludes.Location = New System.Drawing.Point(42, 816)
         Me.LblCapExcludes.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblCapExcludes.Name = "LblCapExcludes"
         Me.LblCapExcludes.Size = New System.Drawing.Size(154, 21)
@@ -276,7 +286,7 @@ Partial Class Settings
         'TBCAPExcludesList
         '
         Me.TBCAPExcludesList.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBCAPExcludesList.Location = New System.Drawing.Point(215, 553)
+        Me.TBCAPExcludesList.Location = New System.Drawing.Point(215, 808)
         Me.TBCAPExcludesList.Margin = New System.Windows.Forms.Padding(2)
         Me.TBCAPExcludesList.Name = "TBCAPExcludesList"
         Me.TBCAPExcludesList.Size = New System.Drawing.Size(628, 29)
@@ -287,7 +297,7 @@ Partial Class Settings
         Me.LblCapBulkExcludes.AutoSize = True
         Me.LblCapBulkExcludes.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.LblCapBulkExcludes.ForeColor = System.Drawing.Color.White
-        Me.LblCapBulkExcludes.Location = New System.Drawing.Point(4, 610)
+        Me.LblCapBulkExcludes.Location = New System.Drawing.Point(13, 870)
         Me.LblCapBulkExcludes.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblCapBulkExcludes.Name = "LblCapBulkExcludes"
         Me.LblCapBulkExcludes.Size = New System.Drawing.Size(181, 21)
@@ -297,18 +307,133 @@ Partial Class Settings
         'TBCAPBulkExcludesList
         '
         Me.TBCAPBulkExcludesList.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.TBCAPBulkExcludesList.Location = New System.Drawing.Point(215, 607)
+        Me.TBCAPBulkExcludesList.Location = New System.Drawing.Point(215, 862)
         Me.TBCAPBulkExcludesList.Margin = New System.Windows.Forms.Padding(2)
         Me.TBCAPBulkExcludesList.Name = "TBCAPBulkExcludesList"
         Me.TBCAPBulkExcludesList.Size = New System.Drawing.Size(628, 29)
         Me.TBCAPBulkExcludesList.TabIndex = 21
+        '
+        'LbBulkBuyer
+        '
+        Me.LbBulkBuyer.AutoSize = True
+        Me.LbBulkBuyer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.LbBulkBuyer.ForeColor = System.Drawing.Color.White
+        Me.LbBulkBuyer.Location = New System.Drawing.Point(67, 561)
+        Me.LbBulkBuyer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LbBulkBuyer.Name = "LbBulkBuyer"
+        Me.LbBulkBuyer.Size = New System.Drawing.Size(129, 21)
+        Me.LbBulkBuyer.TabIndex = 24
+        Me.LbBulkBuyer.Text = "Bulk Buyer Email:"
+        '
+        'TBBulkBuyerEmail
+        '
+        Me.TBBulkBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.TBBulkBuyerEmail.Location = New System.Drawing.Point(215, 553)
+        Me.TBBulkBuyerEmail.Margin = New System.Windows.Forms.Padding(2)
+        Me.TBBulkBuyerEmail.Name = "TBBulkBuyerEmail"
+        Me.TBBulkBuyerEmail.Size = New System.Drawing.Size(628, 29)
+        Me.TBBulkBuyerEmail.TabIndex = 23
+        '
+        'LbCheeseBuyer
+        '
+        Me.LbCheeseBuyer.AutoSize = True
+        Me.LbCheeseBuyer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.LbCheeseBuyer.ForeColor = System.Drawing.Color.White
+        Me.LbCheeseBuyer.Location = New System.Drawing.Point(45, 611)
+        Me.LbCheeseBuyer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LbCheeseBuyer.Name = "LbCheeseBuyer"
+        Me.LbCheeseBuyer.Size = New System.Drawing.Size(149, 21)
+        Me.LbCheeseBuyer.TabIndex = 26
+        Me.LbCheeseBuyer.Text = "Cheese Buyer Email:"
+        '
+        'TBCheeseBuyerEmail
+        '
+        Me.TBCheeseBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.TBCheeseBuyerEmail.Location = New System.Drawing.Point(215, 603)
+        Me.TBCheeseBuyerEmail.Margin = New System.Windows.Forms.Padding(2)
+        Me.TBCheeseBuyerEmail.Name = "TBCheeseBuyerEmail"
+        Me.TBCheeseBuyerEmail.Size = New System.Drawing.Size(628, 29)
+        Me.TBCheeseBuyerEmail.TabIndex = 25
+        '
+        'LbGroceryBuyer
+        '
+        Me.LbGroceryBuyer.AutoSize = True
+        Me.LbGroceryBuyer.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.LbGroceryBuyer.ForeColor = System.Drawing.Color.White
+        Me.LbGroceryBuyer.Location = New System.Drawing.Point(42, 662)
+        Me.LbGroceryBuyer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LbGroceryBuyer.Name = "LbGroceryBuyer"
+        Me.LbGroceryBuyer.Size = New System.Drawing.Size(154, 21)
+        Me.LbGroceryBuyer.TabIndex = 28
+        Me.LbGroceryBuyer.Text = "Grocery Buyer Email:"
+        '
+        'TBGroceryBuyerEmail
+        '
+        Me.TBGroceryBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.TBGroceryBuyerEmail.Location = New System.Drawing.Point(215, 654)
+        Me.TBGroceryBuyerEmail.Margin = New System.Windows.Forms.Padding(2)
+        Me.TBGroceryBuyerEmail.Name = "TBGroceryBuyerEmail"
+        Me.TBGroceryBuyerEmail.Size = New System.Drawing.Size(628, 29)
+        Me.TBGroceryBuyerEmail.TabIndex = 27
+        '
+        'LbMeatBuyerEmail
+        '
+        Me.LbMeatBuyerEmail.AutoSize = True
+        Me.LbMeatBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.LbMeatBuyerEmail.ForeColor = System.Drawing.Color.White
+        Me.LbMeatBuyerEmail.Location = New System.Drawing.Point(60, 715)
+        Me.LbMeatBuyerEmail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LbMeatBuyerEmail.Name = "LbMeatBuyerEmail"
+        Me.LbMeatBuyerEmail.Size = New System.Drawing.Size(134, 21)
+        Me.LbMeatBuyerEmail.TabIndex = 30
+        Me.LbMeatBuyerEmail.Text = "Meat Buyer Email:"
+        '
+        'TBMeatBuyerEmail
+        '
+        Me.TBMeatBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.TBMeatBuyerEmail.Location = New System.Drawing.Point(215, 707)
+        Me.TBMeatBuyerEmail.Margin = New System.Windows.Forms.Padding(2)
+        Me.TBMeatBuyerEmail.Name = "TBMeatBuyerEmail"
+        Me.TBMeatBuyerEmail.Size = New System.Drawing.Size(628, 29)
+        Me.TBMeatBuyerEmail.TabIndex = 29
+        '
+        'LbWellnessBuyerEmail
+        '
+        Me.LbWellnessBuyerEmail.AutoSize = True
+        Me.LbWellnessBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.LbWellnessBuyerEmail.ForeColor = System.Drawing.Color.White
+        Me.LbWellnessBuyerEmail.Location = New System.Drawing.Point(36, 766)
+        Me.LbWellnessBuyerEmail.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LbWellnessBuyerEmail.Name = "LbWellnessBuyerEmail"
+        Me.LbWellnessBuyerEmail.Size = New System.Drawing.Size(160, 21)
+        Me.LbWellnessBuyerEmail.TabIndex = 32
+        Me.LbWellnessBuyerEmail.Text = "Wellness Buyer Email:"
+        '
+        'TBWellnessBuyerEmail
+        '
+        Me.TBWellnessBuyerEmail.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.TBWellnessBuyerEmail.Location = New System.Drawing.Point(215, 758)
+        Me.TBWellnessBuyerEmail.Margin = New System.Windows.Forms.Padding(2)
+        Me.TBWellnessBuyerEmail.Name = "TBWellnessBuyerEmail"
+        Me.TBWellnessBuyerEmail.Size = New System.Drawing.Size(628, 29)
+        Me.TBWellnessBuyerEmail.TabIndex = 31
         '
         'Settings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(923, 742)
+        Me.ClientSize = New System.Drawing.Size(923, 1027)
+        Me.Controls.Add(Me.LbWellnessBuyerEmail)
+        Me.Controls.Add(Me.TBWellnessBuyerEmail)
+        Me.Controls.Add(Me.LbMeatBuyerEmail)
+        Me.Controls.Add(Me.TBMeatBuyerEmail)
+        Me.Controls.Add(Me.LbGroceryBuyer)
+        Me.Controls.Add(Me.TBGroceryBuyerEmail)
+        Me.Controls.Add(Me.LbCheeseBuyer)
+        Me.Controls.Add(Me.TBCheeseBuyerEmail)
+        Me.Controls.Add(Me.LbBulkBuyer)
+        Me.Controls.Add(Me.TBBulkBuyerEmail)
         Me.Controls.Add(Me.LblCapBulkExcludes)
         Me.Controls.Add(Me.TBCAPBulkExcludesList)
         Me.Controls.Add(Me.LblCapExcludes)
@@ -332,7 +457,7 @@ Partial Class Settings
         Me.Controls.Add(Me.TBSettingsConnectionString)
         Me.Controls.Add(Me.TBSettingsDTEXECPath)
         Me.Controls.Add(Me.TBSettingsServer)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Settings"
         Me.Text = "Settings"
         Me.ResumeLayout(False)
@@ -363,4 +488,14 @@ Partial Class Settings
     Friend WithEvents TBCAPExcludesList As TextBox
     Friend WithEvents LblCapBulkExcludes As Label
     Friend WithEvents TBCAPBulkExcludesList As TextBox
+    Friend WithEvents LbBulkBuyer As Label
+    Friend WithEvents TBBulkBuyerEmail As TextBox
+    Friend WithEvents LbCheeseBuyer As Label
+    Friend WithEvents TBCheeseBuyerEmail As TextBox
+    Friend WithEvents LbGroceryBuyer As Label
+    Friend WithEvents TBGroceryBuyerEmail As TextBox
+    Friend WithEvents LbMeatBuyerEmail As Label
+    Friend WithEvents TBMeatBuyerEmail As TextBox
+    Friend WithEvents LbWellnessBuyerEmail As Label
+    Friend WithEvents TBWellnessBuyerEmail As TextBox
 End Class

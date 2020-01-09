@@ -45,6 +45,7 @@ Public Class CoopDeals
         Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  CAPMonthlyImport /ser " + My.Settings.Server)
         MessageBox.Show("Wait for all command windows to close before clicking OK", "Wait!", MessageBoxButtons.OK)
         ExecSP("exec [dbo].[ProcessCAPMonthlySales]")
+        MessageBox.Show("Wait", "Wait for all command windows to close before clicking OK", MessageBoxButtons.OK)
         ExecSP("exec [dbo].[ProcessCAPChanges] @WorkingYearMonth = " + WorkingYearMonth)
         MessageBox.Show("Import Complete", "Click ok to export excluded items", MessageBoxButtons.OK)
         Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  ExportCAPMonthlyExcludedItems /ser " + My.Settings.Server)

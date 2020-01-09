@@ -207,6 +207,66 @@ Namespace My
                 Me("CAPBulkExcludeList") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property GroceryBuyersEmail() As String
+            Get
+                Return CType(Me("GroceryBuyersEmail"),String)
+            End Get
+            Set
+                Me("GroceryBuyersEmail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property CheeseBuyersEmail() As String
+            Get
+                Return CType(Me("CheeseBuyersEmail"),String)
+            End Get
+            Set
+                Me("CheeseBuyersEmail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property WellnessBuyersEmail() As String
+            Get
+                Return CType(Me("WellnessBuyersEmail"),String)
+            End Get
+            Set
+                Me("WellnessBuyersEmail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property BulkBuyersEmail() As String
+            Get
+                Return CType(Me("BulkBuyersEmail"),String)
+            End Get
+            Set
+                Me("BulkBuyersEmail") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property MeatBuyersEmail() As String
+            Get
+                Return CType(Me("MeatBuyersEmail"),String)
+            End Get
+            Set
+                Me("MeatBuyersEmail") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
