@@ -76,10 +76,7 @@ Public Class VTWine
     Private Sub BTNSaveVTWineCatapultExports_Click(sender As Object, e As EventArgs) Handles BTNSaveVTWineCatapultExports.Click
         Dim dpath As String
         dpath = My.Settings.DtexecPath
-        Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  VTWineMonthlyAExport /ser " + My.Settings.Server)
-        MessageBox.Show("Wait for all command windows to close before clicking OK", "Wait!", MessageBoxButtons.OK)
-        MessageBox.Show("First Export Complete", "Click ok to continue", MessageBoxButtons.OK)
-        Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  VTWineMonthlyBExport /ser " + My.Settings.Server)
+        Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  VTWineMonthlyExport /ser " + My.Settings.Server)
         MessageBox.Show("Wait for all command windows to close before clicking OK", "Wait!", MessageBoxButtons.OK)
         MessageBox.Show("All exports are complete", "All exports are complete.", MessageBoxButtons.OK)
     End Sub
@@ -140,4 +137,6 @@ Public Class VTWine
         Return MyStringBuilder.ToString()
 
     End Function
+
+
 End Class

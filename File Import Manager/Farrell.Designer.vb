@@ -48,10 +48,10 @@ Partial Class Farrell
         Me.LbFarrellStep8.Location = New System.Drawing.Point(146, 1024)
         Me.LbFarrellStep8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbFarrellStep8.Name = "LbFarrellStep8"
-        Me.LbFarrellStep8.Size = New System.Drawing.Size(466, 50)
+        Me.LbFarrellStep8.Size = New System.Drawing.Size(436, 50)
         Me.LbFarrellStep8.TabIndex = 36
-        Me.LbFarrellStep8.Text = "Step 8:     Export files for import into catapult. files are " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to  \\hmc" &
-    "\it\CoopDB\Farrell"
+        Me.LbFarrellStep8.Text = "Step 8:     Export file for import into catapult. file is " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to  \\hmc\it" &
+    "\CoopDB\Farrell"
         '
         'LbFarrellStep7
         '
@@ -146,7 +146,7 @@ Partial Class Farrell
         Me.BTNSaveFarrellCatapultExports.Name = "BTNSaveFarrellCatapultExports"
         Me.BTNSaveFarrellCatapultExports.Size = New System.Drawing.Size(162, 66)
         Me.BTNSaveFarrellCatapultExports.TabIndex = 44
-        Me.BTNSaveFarrellCatapultExports.Text = "Save Catapult Files"
+        Me.BTNSaveFarrellCatapultExports.Text = "Save Catapult File"
         Me.BTNSaveFarrellCatapultExports.UseVisualStyleBackColor = False
         '
         'BTNArchiveExcludes

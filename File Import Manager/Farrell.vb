@@ -77,12 +77,9 @@ Public Class Farrell
     Private Sub BTNSaveFarrellCatapultExports_Click(sender As Object, e As EventArgs) Handles BTNSaveFarrellCatapultExports.Click
         Dim dpath As String
         dpath = My.Settings.DtexecPath
-        Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  FarrellMonthlyAExport /ser " + My.Settings.Server)
+        Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  FarrellMonthlyExport /ser " + My.Settings.Server)
         MessageBox.Show("Wait for all command windows to close before clicking OK", "Wait!", MessageBoxButtons.OK)
-        MessageBox.Show("First Export Complete", "Click ok to continue", MessageBoxButtons.OK)
-        Process.Start("cmd", "/" + My.Settings.Debug + " " + dpath + " /sq  FarrellMonthlyBExport /ser " + My.Settings.Server)
-        MessageBox.Show("Wait for all command windows to close before clicking OK", "Wait!", MessageBoxButtons.OK)
-        MessageBox.Show("All exports are complete", "All exports are complete.", MessageBoxButtons.OK)
+        MessageBox.Show("Export is complete", "Exports is complete.", MessageBoxButtons.OK)
     End Sub
 
     Private Sub ExecSP(ByVal CommandText As String)

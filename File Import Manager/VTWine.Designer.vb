@@ -63,7 +63,7 @@ Partial Class VTWine
         Me.BTNSaveVTWineCatapultExports.Name = "BTNSaveVTWineCatapultExports"
         Me.BTNSaveVTWineCatapultExports.Size = New System.Drawing.Size(162, 66)
         Me.BTNSaveVTWineCatapultExports.TabIndex = 61
-        Me.BTNSaveVTWineCatapultExports.Text = "Save Catapult Files"
+        Me.BTNSaveVTWineCatapultExports.Text = "Save Catapult File"
         Me.BTNSaveVTWineCatapultExports.UseVisualStyleBackColor = False
         '
         'BTNArchiveExcludes
@@ -164,10 +164,10 @@ Partial Class VTWine
         Me.LbVTWineStep8.Location = New System.Drawing.Point(99, 1025)
         Me.LbVTWineStep8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.LbVTWineStep8.Name = "LbVTWineStep8"
-        Me.LbVTWineStep8.Size = New System.Drawing.Size(466, 50)
+        Me.LbVTWineStep8.Size = New System.Drawing.Size(570, 50)
         Me.LbVTWineStep8.TabIndex = 53
-        Me.LbVTWineStep8.Text = "Step 8:     Export files for import into catapult. files are " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to  \\hmc" &
-    "\it\CoopDB\Farrell"
+        Me.LbVTWineStep8.Text = "Step 8:     Export file for import into catapult. File is " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "exported to  \\hmc\it" &
+    "\CoopDB\Vermont Wine Merchants Company" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'LbVTWineStep7
         '
